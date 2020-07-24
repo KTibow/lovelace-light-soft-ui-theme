@@ -12,3 +12,5 @@ Home Assistant light theme, built on from @JuanMTech, using style boilerplates f
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.
 ## Screenshot
 [![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-light-soft-ui-theme/master/lighttheme.png)](#)
+## More details
+Go see more [over on GitHub](https://github.com/KTibow/lovelace-light-soft-ui-theme/).
