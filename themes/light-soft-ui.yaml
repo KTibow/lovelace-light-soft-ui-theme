@@ -62,7 +62,7 @@ Light Soft UI:
   material-secondary-background-color: var(--primary-background-color)
   mdc-theme-surface: var(--paper-card-background-color)
   # Card-mod
-  card-mod-theme: "Google Light Theme"
+  card-mod-theme: "Light Soft UI"
   theme-red: firebrick
   theme-green: forestgreen
   theme-blue: deepskyblue
