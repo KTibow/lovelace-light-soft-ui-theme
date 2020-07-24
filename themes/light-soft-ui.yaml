@@ -1,0 +1,179 @@
+# Thanks @JuanMTech, @thomasloven, and @N-l1.
+Light Soft UI:
+  # Header Colors
+  app-header-background-color: "#f3f5f7"
+  app-header-text-color: "#000"
+  # Interface Colors
+  primary-color: "#5F9BEA"
+  light-primary-color: var(--primary-color)
+  primary-background-color: "#f3f5f7"
+  secondary-background-color: var(--primary-background-color)
+  divider-color: var(--primary-background-color)
+  # Text Colors
+  primary-text-color: "#4A4A4A"
+  secondary-text-color: "#5F6267"
+  text-primary-color: "#FFFFFF"
+  disabled-text-color: "#717171"
+  # Sidebar Menu Colors
+  sidebar-icon-color: "#555"
+  sidebar-text-color: "#555"
+  sidebar-background-color: "#f3f5f7"
+  sidebar-selected-background-color: var(--primary-background-color)
+  sidebar-selected-icon-color: "#5F9BEA"
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color))
+  # State and Badge Colors
+  state-icon-color: "#5F6267"
+  state-icon-active-color: "#5F9BEA"
+  state-icon-unavailable-color: var(--disabled-text-color)
+  # Slider Colors
+  paper-slider-knob-color: "#5F9Bd3"
+  paper-slider-knob-start-color: var(--paper-slider-knob-color)
+  paper-slider-pin-color: var(--paper-slider-knob-color)
+  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-secondary-color: var(--light-primary-color)
+  # Label Colors
+  label-badge-background-color: "#F8FAF9"
+  label-badge-text-color: "#4D5575"
+  label-badge-red: "#C7484C"
+  label-badge-green: "#6DC071"
+  label-badge-blue: "#51AAD1"
+  label-badge-yellow: "#D9B757"
+  label-badge-gray: "#5F6267"
+  # Card Stuff + Colors
+  ha-card-border-radius: '18px'
+  paper-card-background-color: "rgba(255, 255, 255, 0.9)"
+  paper-listbox-background-color: "rgba(255, 255, 255, 0.9)"
+  # Switch Colors
+  switch-checked-button-color: "#5F9Bd3"
+  switch-checked-track-color: "#75a2d3"
+  switch-unchecked-button-color: "#5F6267"
+  switch-unchecked-track-color: "#888b91"
+  # Toggle Colors
+  paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
+  paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
+  paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
+  paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
+  # Table Colors
+  table-row-background-color: var(--primary-background-color)
+  table-row-alternative-background-color: var(--secondary-background-color)
+  data-table-background-color: var(--primary-background-color)
+  # Dropdown Colors
+  material-background-color: var(--paper-card-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  mdc-theme-surface: var(--paper-card-background-color)
+  # Card-mod
+  card-mod-theme: "Google Light Theme"
+  theme-red: firebrick
+  theme-green: forestgreen
+  theme-blue: deepskyblue
+  ha-label-badge-title-font-size: 1em
+  card-mod-card-yaml: |
+    hui-image:
+      $: |
+        img {
+          border-radius: 18px;
+        }
+    .: |
+      ha-card:not(.type-markdown) {
+        background-color: var(--primary-background-color);
+      }
+      ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities) {
+        margin: 30px;
+        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+                    {% else %}-8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);{% endif %};
+      }
+      ha-card.type-picture-entity {
+        padding: 10px;
+      }
+      ha-card.type-picture-entity > .footer {
+        margin: 10px;
+        border-radius: 18px;
+      }
+      ha-card.type-entities {
+        box-shadow: none !important;
+        margin: 30px 20px;
+      }
+      ha-card > .card-content > div > * {
+        display: block;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 95%;
+        margin: 0 auto 0 5px;
+      }
+      ha-card.type-media-control, ha-card.type-media-control > * {
+        background-color: var(--primary-background-color) !important;
+        color: var(--secondary-text-color) !important;
+      }
+      ha-card > .card-content {
+        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+                    {% else %}-8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);{% endif %};
+        border-radius: var(--ha-card-border-radius);
+        margin: 12px;
+        padding: 10px;
+      }
+      ha-card > .card-header {
+        box-shadow: none;
+      }
+      ha-card > .card-header > .name {
+        text-align: center;
+        width: 100%;
+      }
+  card-mod-view: |
+    #badges {
+      width: 95%;
+      margin: 8px auto !important;
+    }
+    #columns {
+      flex-direction: column !important;
+      margin: 0 auto;
+      max-width: 500px;
+    }
+  card-mod-badge-yaml: |
+    .: |
+      :host {
+        border-radius: 5px;
+        padding: 11px 8px;
+        margin: 11px 12px;
+        display: inline-block;
+        --label-badge-blue: {% if not states(config.entity) %} var(--theme-blue);
+          {% elif is_state(config.entity, 'on') %} var(--theme-green);
+          {% elif is_state(config.entity, 'open') %} var(--theme-green);
+          {% elif is_state(config.entity, 'unlocked') %} var(--theme-green);
+          {% elif is_state(config.entity, 'off') %} var(--theme-red);
+          {% elif is_state(config.entity, 'closed') %} var(--theme-red);
+          {% elif is_state(config.entity, 'locked') %} var(--theme-red);
+          {% else %} var(--theme-blue); {% endif %}
+        --label-badge-red: teal;
+        margin-bottom: 24px;
+        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-5px -5px 5px 0 rgba(255,255,255,.5), 5px 5px 5px 0 rgba(0,0,0,.03);
+        {% else %}-5px -5px 8px 0 rgba(50, 50, 50,.5), 5px 5px 5px 0 rgba(0,0,0,.15);{% endif %};
+      }
+    ha-state-label-badge:
+      $:
+        ha-label-badge:
+          $: |
+            .label-badge {
+              background: none !important;
+            }
+            .title {
+              -webkit-line-clamp: 1;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+            }
+  card-mod-more-info-yaml: |
+    $: |
+      .mdc-dialog {
+        backdrop-filter: blur(2.5px);
+        background: {% if is_state('sun.sun', 'above_horizon') %}rgba(255, 255, 255, 0.35);
+                    {% else %}rgba(0, 0, 0, 0.35);{% endif %};
+      }
+      .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
+        background: {% if is_state('sun.sun', 'above_horizon') %}rgba(255, 255, 255, 0.8);
+                    {% else %}rgba(0, 0, 0, 0.8);{% endif %};
+        border-radius: var(--ha-card-border-radius);
+      }
+    ha-header-bar:
+      $: |
+        .mdc-top-app-bar {
+          background: none !important;
+        }
