@@ -79,8 +79,7 @@ Light Soft UI:
       }
       ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities) {
         margin: 30px;
-        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
-                    {% else %}-8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);{% endif %};
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
       }
       ha-card.type-picture-entity {
         padding: 10px;
@@ -105,8 +104,7 @@ Light Soft UI:
         color: var(--secondary-text-color) !important;
       }
       ha-card > .card-content {
-        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
-                    {% else %}-8px -8px 8px 0 rgba(50, 50, 50,.5),8px 8px 8px 0 rgba(0,0,0,.15);{% endif %};
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
@@ -145,8 +143,7 @@ Light Soft UI:
           {% else %} var(--theme-blue); {% endif %}
         --label-badge-red: teal;
         margin-bottom: 24px;
-        box-shadow: {% if is_state('sun.sun', 'above_horizon') %}-5px -5px 5px 0 rgba(255,255,255,.5), 5px 5px 5px 0 rgba(0,0,0,.03);
-        {% else %}-5px -5px 8px 0 rgba(50, 50, 50,.5), 5px 5px 5px 0 rgba(0,0,0,.15);{% endif %};
+        box-shadow: -5px -5px 5px 0 rgba(255,255,255,.5), 5px 5px 5px 0 rgba(0,0,0,.03);
       }
     ha-state-label-badge:
       $:
@@ -164,12 +161,10 @@ Light Soft UI:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2.5px);
-        background: {% if is_state('sun.sun', 'above_horizon') %}rgba(255, 255, 255, 0.35);
-                    {% else %}rgba(0, 0, 0, 0.35);{% endif %};
+        background: rgba(255, 255, 255, 0.35);
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
-        background: {% if is_state('sun.sun', 'above_horizon') %}rgba(255, 255, 255, 0.8);
-                    {% else %}rgba(0, 0, 0, 0.8);{% endif %};
+        background: rgba(255, 255, 255, 0.8);
         border-radius: var(--ha-card-border-radius);
       }
     ha-header-bar:
