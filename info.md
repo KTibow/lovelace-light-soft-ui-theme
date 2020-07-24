@@ -6,7 +6,7 @@
 **Please install if it sounds good.**
 {% endif %}
 {% if version_available != version_installed %}
-Please update your version!
+## Please update your version!!!!
 {% endif %}
 Home Assistant light theme, built on from @JuanMTech, using style boilerplates from @thomasloven and @N-L1.
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.
