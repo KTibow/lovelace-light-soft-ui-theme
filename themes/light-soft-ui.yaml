@@ -9,6 +9,7 @@ Light Soft UI:
   primary-background-color: "#f3f5f7"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
+  card-background-color: var(--primary-background-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
   secondary-text-color: "#5F6267"
@@ -26,7 +27,7 @@ Light Soft UI:
   state-icon-active-color: "#5F9BEA"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Slider Colors
-  paper-slider-knob-color: "#5F9Bd3"
+  paper-slider-knob-color: "#5F9BD3"
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
@@ -41,6 +42,7 @@ Light Soft UI:
   label-badge-gray: "#5F6267"
   # Card Stuff + Colors
   ha-card-border-radius: '18px'
+  ha-card-box-shadow: '-8px -8px 8px 0 rgba(255,255,255,.5), 8px 8px 8px 0 rgba(0,0,0,.03)'
   paper-card-background-color: "rgba(255, 255, 255, 0.9)"
   paper-listbox-background-color: "rgba(255, 255, 255, 0.9)"
   # Switch Colors
