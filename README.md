@@ -6,6 +6,7 @@ Looking for the [dark theme instead?](https://github.com/KTibow/lovelace-dark-so
 ## Screenshot
 [![Screenshot of it](lighttheme.png)](#)
 ## Features
+- Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation).
 - Works with auto-generated dashboards and handmade ones
 - Works with badges
 - Gives cards in dashboards and cards everywhere soft UI
