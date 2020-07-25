@@ -78,10 +78,14 @@ Light Soft UI:
     .: |
       ha-card:not(.type-markdown) {
         background-color: var(--primary-background-color);
+        border-radius: var(--ha-card-border-radius);
       }
       ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card) {
         margin: 30px;
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+      }
+      ha-card.type-custom-vacuum-card > .preview {
+        --primary-color: var(--primary-background-color);
       }
       ha-card.type-picture-entity {
         padding: 10px;
