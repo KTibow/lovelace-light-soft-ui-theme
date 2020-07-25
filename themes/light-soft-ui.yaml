@@ -133,7 +133,7 @@ Light Soft UI:
       :host {
         border-radius: 5px;
         padding: 11px 8px;
-        margin: 11px 12px;
+        margin: 11px 12px 24px 12px;
         display: inline-block;
         --label-badge-blue: {% if not states(config.entity) %} var(--theme-blue);
           {% elif is_state(config.entity, 'on') %} var(--theme-green);
@@ -144,7 +144,6 @@ Light Soft UI:
           {% elif is_state(config.entity, 'locked') %} var(--theme-red);
           {% else %} var(--theme-blue); {% endif %}
         --label-badge-red: teal;
-        margin-bottom: 24px;
         box-shadow: -5px -5px 5px 0 rgba(255,255,255,.5), 5px 5px 5px 0 rgba(0,0,0,.03);
       }
     ha-state-label-badge:
