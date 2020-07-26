@@ -114,6 +114,9 @@ Light Soft UI:
         width: 95%;
         margin: 0 auto 0 5px;
       }
+      ha-card > #states > div > hui-button-row {
+        display: flex;
+      }
       ha-card.type-media-control, ha-card.type-media-control > * {
         background-color: var(--primary-background-color) !important;
         color: var(--secondary-text-color) !important;
