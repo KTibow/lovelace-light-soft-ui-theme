@@ -114,7 +114,7 @@ Light Soft UI:
         width: 95%;
         margin: 0 auto 0 5px;
       }
-      ha-card > #states > div > hui-button-row {
+      ha-card > #states > div > hui-button-row, hui-input-select-entity-row {
         display: flex;
       }
       ha-card.type-media-control, ha-card.type-media-control > * {
