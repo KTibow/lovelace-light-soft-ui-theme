@@ -126,6 +126,9 @@ Light Soft UI:
         margin: 12px;
         padding: 10px;
       }
+      ha-card > .header-footer {
+        margin: 25px 12px;
+      }
       ha-card > .card-header {
         box-shadow: none;
       }
