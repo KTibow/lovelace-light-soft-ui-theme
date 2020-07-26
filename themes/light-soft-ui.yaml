@@ -41,7 +41,7 @@ Light Soft UI:
   label-badge-yellow: "#D9B757"
   label-badge-gray: "#5F6267"
   # Card Stuff + Colors
-  ha-card-border-radius: '18px'
+  ha-card-border-radius: '15px'
   ha-card-box-shadow: '-5.5px -5.5px 5.5px 0 rgba(255,255,255,.5), 5.5px 5.5px 5.5px 0 rgba(0,0,0,.03)'
   paper-card-background-color: "rgba(255, 255, 255, 0.9)"
   paper-listbox-background-color: "rgba(255, 255, 255, 0.9)"
