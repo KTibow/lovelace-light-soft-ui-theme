@@ -125,14 +125,17 @@ Light Soft UI:
         background-color: var(--primary-background-color) !important;
         color: var(--secondary-text-color) !important;
       }
-      ha-card > #states, .header-footer, .info {
+      ha-card > #states, .header-footer {
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
       }
-      ha-card > .info {
+      ha-card.type-entity > .info {
         padding: 16px;
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        border-radius: var(--ha-card-border-radius);
+        margin: 12px;
       }
       ha-card > .header-footer {
         margin: 25px 12px;
