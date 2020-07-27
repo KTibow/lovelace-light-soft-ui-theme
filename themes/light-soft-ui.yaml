@@ -136,6 +136,9 @@ Light Soft UI:
         text-align: center;
         width: 100%;
       }
+      ha-card > .card-header > hui-entities-toggle {
+        margin: 0 25px 0 -25px;
+      }
       ha-card.type-custom-bar-card > .card-header {
         text-align: center;
         width: 70%;
