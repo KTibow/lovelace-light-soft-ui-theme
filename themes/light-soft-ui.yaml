@@ -75,6 +75,11 @@ Light Soft UI:
         img {
           border-radius: 18px;
         }
+    ha-gauge:
+      $: |
+        .dial {
+          stroke: white !important;
+        }
     .: |
       ha-card:not(.type-markdown) {
         background-color: var(--primary-background-color);
