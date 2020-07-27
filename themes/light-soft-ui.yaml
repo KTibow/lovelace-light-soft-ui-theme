@@ -152,6 +152,17 @@ Light Soft UI:
         width: 70%;
         margin: 0 auto;
       }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(359deg);
+        }
+      }
+      ha-icon[data-domain="fan"][data-state="on"] {
+        animation: spin 4s infinite linear;
+      }
   card-mod-view: |
     #badges {
       width: 90%;
