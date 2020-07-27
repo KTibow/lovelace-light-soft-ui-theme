@@ -207,3 +207,19 @@ Light Soft UI:
         .mdc-top-app-bar {
           background: none !important;
         }
+  card-mod-row-yaml: |
+    "*:first-child":
+      $: |
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(359deg);
+          }
+        }
+        state-badge {
+          {% if config.entity.startswith('fan.') and is_state(config.entity, 'on') %}
+          animation: spin 4s infinite linear;
+          {% endif %}
+        }
