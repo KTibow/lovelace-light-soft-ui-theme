@@ -6,12 +6,18 @@ Looking for the [dark theme instead?](https://github.com/KTibow/lovelace-dark-so
 ## Screenshot
 [![Screenshot of it](lighttheme.png)](#)
 ## Features
-- Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation).
+- Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation)
 - Works with auto-generated dashboards and handmade ones
 - Works with badges
 - Gives cards in dashboards and cards everywhere soft UI
+- Can help to make your config smaller:
+  - You can just house each card separately, instead of having to use a vertical stack.
+  - You can remove plain styling, and just style what's important.
 ## Notes
-This theme can modify how you style cards. [Source code of CSS part of theme](https://git.io/JJBsz) Here's some points:
+These notes may be outdated, and most of the time you can just use `!important`.
+<details><summary>Expand anyway</summary>
+
+This theme can modify how you style cards. [Source code of CSS part of theme.](https://git.io/JJBsz) Here's some points:
 - To add soft-ui to cameras, there's extra margin and border radius added to the images and label.
 - All non-markdown cards will be given background. Make it transparent instead to undo.
 - All non-markdown, non-custom-button-card, non-entities, non-custom-mod-card cards will be given 30px margin and a standard box shadow.
@@ -26,3 +32,4 @@ This theme can modify how you style cards. [Source code of CSS part of theme](ht
 - Badge color will be changed (I don't fully understand how it works)
 - Descriptions will be clamped to one line, and font size will be `1em`.
 - More info dialogs will cause the background to be blurred by `2.5px`, and make it slightly whited out. The dialog will have standard border radius, and a background of `rgba(255, 255, 255, 0.8)`, and the header will have the same background as the rest.
+</details>
