@@ -219,7 +219,7 @@ Light Soft UI:
   card-mod-more-info-yaml: |
     $: |
       .mdc-dialog {
-        backdrop-filter: blur(2.5px);
+        backdrop-filter: blur(2px);
         background: rgba(255, 255, 255, 0.35);
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
