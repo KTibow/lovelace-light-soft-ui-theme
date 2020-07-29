@@ -131,6 +131,12 @@ Light Soft UI:
         margin: 12px;
         padding: 10px;
       }
+      ha-card.type-history-graph > .content {
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        border-radius: var(--ha-card-border-radius);
+        margin: 12px;
+        padding: 10px;
+      }
       ha-card.type-entity > .info {
         padding: 16px;
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
@@ -151,6 +157,11 @@ Light Soft UI:
         margin: 0 25px 0 -25px;
       }
       ha-card.type-custom-bar-card > .card-header {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+      }
+      ha-card.type-history-graph > .card-header {
         text-align: center;
         width: 70%;
         margin: 0 auto;
