@@ -156,7 +156,7 @@ Light Soft UI:
       ha-card > .card-header > hui-entities-toggle {
         margin: 0 25px 0 -25px;
       }
-      ha-card.type-custom-bar-card, ha-card.type-history-graph, ha-card.type-map > .card-header {
+      (ha-card.type-custom-bar-card, ha-card.type-history-graph, ha-card.type-map) > .card-header {
         text-align: center;
         width: 70%;
         margin: 0 auto;
