@@ -84,6 +84,9 @@ Light Soft UI:
       ha-card.type-markdown {
         box-shadow: none;
       }
+      ha-card.type-markdown > ha-markdown {
+        padding: 5px;
+      }
       ha-card:not(.type-markdown) {
         background-color: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
