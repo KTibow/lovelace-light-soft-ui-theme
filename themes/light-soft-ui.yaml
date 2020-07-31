@@ -81,6 +81,9 @@ Light Soft UI:
           stroke: white !important;
         }
     .: |
+      ha-card.type-markdown {
+        box-shadow: none;
+      }
       ha-card:not(.type-markdown) {
         background-color: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
