@@ -63,6 +63,14 @@ Light Soft UI:
   material-background-color: var(--paper-card-background-color)
   material-secondary-background-color: var(--primary-background-color)
   mdc-theme-surface: var(--paper-card-background-color)
+  # Convenience
+  primary-name-text-color: grey
+  primary-state-text-color: grey
+  primary-icon-color: grey
+  ha-card-box-shadow: -5px -5px 8px 0 rgba(255,255,255,.5),5px 5px 8px 0 rgba(0,0,0,.03);
+  ha-card-box-shadow-inset: inset -4px -4px 8px 0 rgba(255,255,255,.5), inset 4px 4px 8px 0 rgba(0,0,0,.03)
+  primary-yellow: '#fad46b'
+  dark-primary-yellow: '#dab44b'
   # Card-mod
   card-mod-theme: "Light Soft UI"
   theme-red: firebrick
