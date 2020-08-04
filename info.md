@@ -3,10 +3,10 @@
 {% if installed %}
 **Thanks for installing!**
 {% else %}
-**Please install if it sounds good.**
+**Install? I worked pretty hard on this...**
 {% endif %}
 {% if version_available != version_installed %}
-## Please update your version!!!!
+## Please update your version! It's important, as I've added stuff in version {{version_available}}
 {% endif %}
 Home Assistant light theme, built on from @JuanMTech, using style boilerplates from @thomasloven and @N-L1.  
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.  
