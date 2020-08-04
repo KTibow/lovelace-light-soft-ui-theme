@@ -33,3 +33,5 @@ This theme can modify how you style cards. [Source code of CSS part of theme.](h
 - Descriptions will be clamped to one line, and font size will be `1em`.
 - More info dialogs will cause the background to be blurred by `2.5px`, and make it slightly whited out. The dialog will have standard border radius, and a background of `rgba(255, 255, 255, 0.8)`, and the header will have the same background as the rest.
 </details>
+## Your own colors?
+Sure! Just add the card-mod styling part to the end of your theme.
