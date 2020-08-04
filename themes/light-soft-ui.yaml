@@ -114,10 +114,12 @@ Light Soft UI:
       ha-card.type-custom-vacuum-card > .preview > .metadata > .vacuum-name {
         color: var(--primary-text-color);
       }
-      ha-card.type-picture-entity {
+      ha-card.type-picture-entity,
+      ha-card.type-picture-glance {
         padding: 10px;
       }
-      ha-card.type-picture-entity > .footer {
+      ha-card.type-picture-entity > .footer,
+      ha-card.type-picture-glance > .box {
         margin: 10px;
         border-radius: 18px;
       }
