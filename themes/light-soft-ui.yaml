@@ -142,6 +142,7 @@ Light Soft UI:
       }
       ha-card > #states,
       ha-card > .header-footer,
+      ha-card > hui-graph-header-footer,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
