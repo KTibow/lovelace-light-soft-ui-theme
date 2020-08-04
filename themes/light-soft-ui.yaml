@@ -152,6 +152,9 @@ Light Soft UI:
         margin: 12px;
         padding: 10px;
       }
+      ha-card.type-iframe > #root > iframe {
+        border-radius: var(--ha-card-border-radius);
+      }
       ha-card.type-entity > .info {
         padding: 16px;
         box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
