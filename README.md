@@ -14,10 +14,10 @@ Looking for the [dark theme instead?](https://github.com/KTibow/lovelace-dark-so
   - You can just house each card separately, instead of having to use a vertical stack.
   - You can remove plain styling, and just style what's important.
 ## Notes
-These notes may be outdated, and most of the time you can just use `!important`.
+These notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
 <details><summary>Expand anyway</summary>
 
-This theme can modify how you style cards. [Source code of CSS part of theme.](https://git.io/JJBsz) Here's some points:
+This theme can modify how you style cards. Here's some points:
 - To add soft-ui to cameras, there's extra margin and border radius added to the images and label.
 - All non-markdown cards will be given background. Make it transparent instead to undo.
 - All non-markdown, non-custom-button-card, non-entities, non-custom-mod-card cards will be given 30px margin and a standard box shadow.
