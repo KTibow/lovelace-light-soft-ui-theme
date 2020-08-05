@@ -79,8 +79,8 @@ Light Soft UI:
   card-mod-card-yaml: |
     hui-image:
       $: |
-        img {
-          border-radius: 18px;
+        img, ha-camera-stream {
+          border-radius: 15px;
         }
     ha-gauge:
       $: |
@@ -121,7 +121,7 @@ Light Soft UI:
       ha-card.type-picture-entity > .footer,
       ha-card.type-picture-glance > .box {
         margin: 10px;
-        border-radius: 18px;
+        border-radius: 15px;
       }
       ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity,
       ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,
