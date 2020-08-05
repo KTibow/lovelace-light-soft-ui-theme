@@ -15,7 +15,9 @@ And [these things are supported](https://github.com/KTibow/lovelace-light-soft-u
   - You can just house each card separately, instead of having to use a vertical stack.
   - You can remove plain styling, and just style what's important.
 ## Notes
-These notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
+- You can use your own colors by just copy/pasting the card-mod part.
+- This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
+- These other notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
 <details><summary>Expand anyway</summary>
 
 This theme can modify how you style cards. Here's some points:
@@ -34,6 +36,3 @@ This theme can modify how you style cards. Here's some points:
 - Descriptions will be clamped to one line, and font size will be `1em`.
 - More info dialogs will cause the background to be blurred by `2.5px`, and make it slightly whited out. The dialog will have standard border radius, and a background of `rgba(255, 255, 255, 0.8)`, and the header will have the same background as the rest.
 </details>
-
-## Your own colors?
-Sure! Just add the card-mod styling part to the end of your theme.
