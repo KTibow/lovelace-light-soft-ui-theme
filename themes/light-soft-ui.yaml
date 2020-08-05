@@ -78,16 +78,10 @@ Light Soft UI:
   ha-label-badge-title-font-size: 1em
   card-mod-card-yaml: |
     hui-image:
-      $:
-        ha-camera-stream:
-          $: |
-            video {
-              border-radius: 15px;
-            }
-        .: |
-          img {
-            border-radius: 15px;
-          }
+      $: |
+        img {
+          border-radius: 15px;
+        }
     ha-gauge:
       $: |
         .dial {
