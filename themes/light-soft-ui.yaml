@@ -12,7 +12,7 @@ Light Soft UI:
   card-background-color: var(--paper-card-background-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
-  secondary-text-color: var(--primary-color)
+  secondary-text-color: var(--primary-text-color)
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
   # Sidebar Menu Colors
@@ -60,7 +60,7 @@ Light Soft UI:
   data-table-background-color: var(--primary-background-color)
   # Dropdown Colors
   material-background-color: var(--primary-background-color)
-  material-secondary-background-color: var(--primary-background-color)
+  material-secondary-background-color: "#E3E5E7"
   mdc-theme-surface: var(--primary-background-color)
   # Convenience
   primary-name-text-color: grey
