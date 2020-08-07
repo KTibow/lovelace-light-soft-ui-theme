@@ -1,8 +1,8 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI:
   # Header Colors
-  app-header-background-color: "#f3f5f7"
-  app-header-text-color: "#000"
+  app-header-background-color: var(--primary-background-color)
+  app-header-text-color: var(--primary-text-color)
   # Interface Colors
   primary-color: "#5F9BEA"
   light-primary-color: var(--primary-color)
@@ -12,16 +12,16 @@ Light Soft UI:
   card-background-color: var(--paper-card-background-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
-  secondary-text-color: "#5F6267"
+  secondary-text-color: var(--primary-color)
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
   # Sidebar Menu Colors
-  sidebar-icon-color: "#555"
-  sidebar-text-color: "#555"
-  sidebar-background-color: "#f3f5f7"
+  sidebar-icon-color: var(--primary-text-color)
+  sidebar-text-color: var(--primary-text-color)
+  sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: "#5F9BEA"
-  sidebar-selected-text-color: var(--sidebar-selected-icon-color))
+  sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # State and Badge Colors
   state-icon-color: "#5F6267"
   state-icon-active-color: "#5F9BEA"
@@ -67,9 +67,15 @@ Light Soft UI:
   primary-name-text-color: grey
   primary-state-text-color: grey
   primary-icon-color: grey
-  ha-card-box-shadow-inset: inset -4px -4px 8px 0 rgba(255,255,255,.5), inset 4px 4px 8px 0 rgba(0,0,0,.03)
+  ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(255,255,255,.5), inset 5.5px 5.5px 5.5px 0 rgba(0,0,0,.03)
   primary-yellow: '#fad46b'
   dark-primary-yellow: '#dab44b'
+  red: '#dc3545'
+  orange: '#fd7e14'
+  yellow: '#ffc107'
+  green: '#28a745'
+  blue: '#007bff'
+  purple: '#6f42c1'
   # Card-mod
   card-mod-theme: "Light Soft UI"
   theme-red: firebrick
@@ -100,7 +106,7 @@ Light Soft UI:
       }
       ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph):not(.type-iframe):not(.type-glance) {
         margin: 20px 0;
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5), 8px 8px 8px 0 rgba(0,0,0,.03);
       }
       ha-card.type-custom-vacuum-card > .preview {
         --primary-color: var(--primary-background-color);
@@ -147,7 +153,7 @@ Light Soft UI:
       ha-card > hui-graph-header-footer,
       ha-card.type-glance > .entities,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5), 8px 8px 8px 0 rgba(0,0,0,.03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
