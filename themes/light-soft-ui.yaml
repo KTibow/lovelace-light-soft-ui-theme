@@ -9,7 +9,7 @@ Light Soft UI:
   primary-background-color: "#f3f5f7"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
-  card-background-color: var(--primary-background-color)
+  card-background-color: var(--paper-card-background-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
   secondary-text-color: "#5F6267"
@@ -43,8 +43,8 @@ Light Soft UI:
   # Card Stuff + Colors
   ha-card-border-radius: '15px'
   ha-card-box-shadow: '-5.5px -5.5px 5.5px 0 rgba(255,255,255,.5), 5.5px 5.5px 5.5px 0 rgba(0,0,0,.03)'
-  paper-card-background-color: "rgba(255, 255, 255, 0.9)"
-  paper-listbox-background-color: "rgba(255, 255, 255, 0.9)"
+  paper-card-background-color: "#f3f5f7"
+  paper-listbox-background-color: "#f3f5f7"
   # Switch Colors
   switch-checked-button-color: "#5F9Bd3"
   switch-checked-track-color: "#75a2d3"
