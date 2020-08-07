@@ -214,11 +214,22 @@ Light Soft UI:
         }
     .: |
       app-toolbar {
-        margin-bottom: -10px;
-        padding-left: 0 !important;
+        height: 0;
+      }
+      ha-button-menu {
+        top: 24px;
+        z-index: 2;
+        margin-left: calc(100% - 48px);
+      }
+      [main-title] {
+        display: none;
       }
       ha-menu-button[style="visibility: hidden;"] {
         display: none;
+      }
+      ha-menu-button {
+        z-index: 2;
+        top: 24px;
       }
       paper-tabs {
         --paper-tabs-selection-bar-color: var(--primary-color) !important;
@@ -227,10 +238,14 @@ Light Soft UI:
       paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
       }
-      app-toolbar ha-menu-button + [main-title],
-      app-toolbar ha-icon-button-arrow-prev + [main-title],
-      app-toolbar ha-icon-button + [main-title] {
-        margin-left: 20px !important;
+      @media (orientation: portrait) {
+        ha-button-menu {
+          margin-left: calc(100% - 80px);
+        }
+        paper-tabs {
+          margin-left: 96px !important;
+          margin-right: 32px !important;
+        }
       }
   card-mod-view: |
     #badges {
