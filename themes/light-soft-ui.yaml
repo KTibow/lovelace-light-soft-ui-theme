@@ -206,19 +206,25 @@ Light Soft UI:
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
       }
-  card-mod-root: |
-    app-toolbar {
-      margin-bottom: -10px;
-    }
-    ha-menu-button[style="visibility: hidden;"] {
-      display: none;
-    }
-    paper-tabs {
-      --paper-tabs-selection-bar-color: var(--primary-color) !important;
-    }
-    paper-tab[aria-selected="true"] > ha-icon {
-      color: var(--primary-color) !important;
-    }
+  card-mod-root-yaml: |
+    paper-tabs:
+      $: |
+        .not-visible {
+          display: none;
+        }
+    .: |
+      app-toolbar {
+        margin-bottom: -10px;
+      }
+      ha-menu-button[style="visibility: hidden;"] {
+        display: none;
+      }
+      paper-tabs {
+        --paper-tabs-selection-bar-color: var(--primary-color) !important;
+      }
+      paper-tab[aria-selected="true"] > ha-icon {
+        color: var(--primary-color) !important;
+      }
   card-mod-view: |
     #badges {
       width: 90%;
