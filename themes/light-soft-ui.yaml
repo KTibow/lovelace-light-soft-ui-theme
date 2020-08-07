@@ -226,7 +226,7 @@ Light Soft UI:
       ha-button-menu {
         top: 24px;
         z-index: 2;
-        margin-left: calc(100% - 48px);
+        margin-left: calc(100% - 96px);
       }
       app-toolbar:not(.edit-mode) > [main-title] {
         display: none;
