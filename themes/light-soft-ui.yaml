@@ -207,42 +207,42 @@ Light Soft UI:
         animation: spin 4s infinite linear;
       }
   card-mod-root-yaml: |
-    paper-tabs:
+    'app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs':
       $: |
         .not-visible {
           display: none;
         }
     .: |
-      app-toolbar {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > app-toolbar {
         height: 0;
       }
-      ha-button-menu {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-button-menu {
         top: 24px;
         z-index: 2;
         margin-left: calc(100% - 48px);
       }
-      [main-title] {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > [main-title] {
         display: none;
       }
-      ha-menu-button[style="visibility: hidden;"] {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > a-menu-button[style="visibility: hidden;"] {
         display: none;
       }
-      ha-menu-button {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-menu-button {
         z-index: 2;
         top: 24px;
       }
-      paper-tabs {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs {
         --paper-tabs-selection-bar-color: var(--primary-color) !important;
         margin-left: 20px !important;
       }
-      paper-tab[aria-selected="true"] > ha-icon {
+      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
       }
       @media (orientation: portrait) {
-        ha-button-menu {
+        app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-button-menu {
           margin-left: calc(100% - 80px);
         }
-        paper-tabs {
+        app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs {
           margin-left: 96px !important;
           margin-right: 32px !important;
         }
