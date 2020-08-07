@@ -221,9 +221,15 @@ Light Soft UI:
       }
       paper-tabs {
         --paper-tabs-selection-bar-color: var(--primary-color) !important;
+        margin-left: 10px;
       }
       paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
+      }
+      app-toolbar ha-menu-button + [main-title],
+      app-toolbar ha-icon-button-arrow-prev + [main-title],
+      app-toolbar ha-icon-button + [main-title] {
+        margin-left: 10px !important;
       }
   card-mod-view: |
     #badges {
