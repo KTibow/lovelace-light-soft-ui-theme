@@ -207,6 +207,12 @@ Light Soft UI:
         animation: spin 4s infinite linear;
       }
   card-mod-root: |
+    app-toolbar {
+      margin-bottom: -10px;
+    }
+    ha-menu-button[style="visibility: hidden;"] {
+      display: none;
+    }
     paper-tabs {
       --paper-tabs-selection-bar-color: var(--primary-color) !important;
     }
