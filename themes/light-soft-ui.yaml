@@ -216,10 +216,7 @@ Light Soft UI:
       app-toolbar:not(.edit-mode):not(> div) {
         height: 0;
       }
-      app-toolbar {
-        background-color: var(--primary-background-color) !important;
-      }
-      .edit-mode {
+      .edit-mode, app-header, app-toolbar {
         background-color: var(--primary-background-color) !important;
         color: var(--primary-text-color) !important;
       }
