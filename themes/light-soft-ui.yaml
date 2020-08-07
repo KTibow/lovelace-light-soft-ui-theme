@@ -213,7 +213,7 @@ Light Soft UI:
           display: none;
         }
     .: |
-      app-toolbar:not(.edit-mode):not(> div) {
+      app-toolbar:not(.edit-mode) {
         height: 0;
       }
       .edit-mode, app-header, app-toolbar {
