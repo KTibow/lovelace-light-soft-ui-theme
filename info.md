@@ -11,7 +11,7 @@ Home Assistant light theme, built on from @JuanMTech, using style boilerplates f
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.  
 Looking for the [dark theme instead?](https://github.com/KTibow/lovelace-dark-soft-ui-theme/)  
 ## Screenshot
-[![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-light-soft-ui-theme/master/lighttheme.png)](#)
+[![Screenshot of it](https://raw.githubusercontent.com/KTibow/lovelace-light-soft-ui-theme/main/lighttheme.png)](#)
 ## Features
 - Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation).
 - Works with auto-generated dashboards and handmade ones
