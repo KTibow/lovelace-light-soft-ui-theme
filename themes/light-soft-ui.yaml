@@ -207,45 +207,67 @@ Light Soft UI:
         animation: spin 4s infinite linear;
       }
   card-mod-root-yaml: |
-    'app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs':
+    paper-tabs:
       $: |
         .not-visible {
           display: none;
         }
     .: |
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > app-toolbar {
+      app-toolbar:not(.edit-mode) {
         height: 0;
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-button-menu {
+      app-toolbar {
+        background-color: var(--primary-background-color) !important;
+      }
+      ha-button-menu {
         top: 24px;
         z-index: 2;
         margin-left: calc(100% - 48px);
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > [main-title] {
+      app-toolbar:not(.edit-mode) > [main-title] {
         display: none;
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > a-menu-button[style="visibility: hidden;"] {
+      menu-button[style="visibility: hidden;"] {
         display: none;
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-menu-button {
+      ha-menu-button {
         z-index: 2;
         top: 24px;
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs {
+      paper-tabs {
         --paper-tabs-selection-bar-color: var(--primary-color) !important;
-        margin-left: 20px !important;
+        margin-left: 32px !important;
       }
-      app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tab[aria-selected="true"] > ha-icon {
+      paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
       }
       @media (orientation: portrait) {
-        app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > ha-button-menu {
+        ha-button-menu {
           margin-left: calc(100% - 80px);
         }
-        app-header[style="transform: translate3d(0px, 0px, 0px); left: 64px; right: 0px; display: none;"] > paper-tabs {
-          margin-left: 96px !important;
+        paper-tabs {
+          margin-left: 64px !important;
           margin-right: 32px !important;
         }
+        ch-header > paper-tabs,
+        app-header.edit-mode > * > paper-tabs {
+          margin-left: 10px !important;
+          margin-right: 10px !important;
+        }
+      }
+      ch-header > ha-button-menu,
+      app-toolbar.edit-mode > ha-button-menu {
+        top: unset;
+        margin-left: unset;
+      }
+      ch-header > ha-menu-button,
+      app-toolbar.edit-mode > ha-menu-button {
+        top: unset;
+        margin-left: unset;
+      }
+      ch-header > paper-tabs,
+      app-header.edit-mode > paper-tabs {
+        margin-left: 0;
       }
   card-mod-view: |
     #badges {
