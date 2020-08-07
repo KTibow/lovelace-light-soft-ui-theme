@@ -210,7 +210,7 @@ Light Soft UI:
     paper-tabs {
       --paper-tabs-selection-bar-color: var(--primary-color) !important;
     }
-    paper-tap[aria-selected="true"] > ha-icon {
+    paper-tab[aria-selected="true"] > ha-icon {
       color: var(--primary-color) !important;
     }
   card-mod-view: |
