@@ -215,6 +215,7 @@ Light Soft UI:
     .: |
       app-toolbar {
         margin-bottom: -10px;
+        padding-left: 0 !important;
       }
       ha-menu-button[style="visibility: hidden;"] {
         display: none;
