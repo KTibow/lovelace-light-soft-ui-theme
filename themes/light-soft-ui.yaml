@@ -6,7 +6,7 @@ Light Soft UI:
   # Interface Colors
   primary-color: "#5F9BEA"
   light-primary-color: var(--primary-color)
-  primary-background-color: "#f3f5f7"
+  primary-background-color: "#F3F5F7"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   card-background-color: var(--paper-card-background-color)
@@ -42,40 +42,39 @@ Light Soft UI:
   label-badge-gray: "#5F6267"
   # Card Stuff + Colors
   ha-card-border-radius: '15px'
-  ha-card-box-shadow: '-5.5px -5.5px 5.5px 0 rgba(255,255,255,.5), 5.5px 5.5px 5.5px 0 rgba(0,0,0,.03)'
-  paper-card-background-color: "#f3f5f7"
-  paper-listbox-background-color: "#f3f5f7"
-  # Switch Colors
-  switch-checked-button-color: "#5F9Bd3"
-  switch-checked-track-color: "#75a2d3"
+  ha-card-box-shadow: '-5.5px -5.5px 5.5px 0 rgba(255, 255, 255, .5), 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .03)'
+  paper-card-background-color: var(--primary-background-color)
+  paper-listbox-background-color: var(--primary-background-color)
+  # Switch + Toggle Colors
+  switch-checked-button-color: "#5F9BD3"
+  switch-checked-track-color: "#75A2D3"
   switch-unchecked-button-color: "#5F6267"
-  switch-unchecked-track-color: "#888b91"
-  # Toggle Colors
+  switch-unchecked-track-color: "#888B91"
   paper-toggle-button-checked-button-color: var(--switch-checked-button-color)
   paper-toggle-button-checked-bar-color: var(--switch-checked-track-color)
   paper-toggle-button-unchecked-button-color: var(--switch-unchecked-button-color)
   paper-toggle-button-unchecked-bar-color: var(--switch-unchecked-track-color)
   # Table Colors
   table-row-background-color: var(--primary-background-color)
-  table-row-alternative-background-color: var(--secondary-background-color)
+  table-row-alternative-background-color: var(--primary-background-color)
   data-table-background-color: var(--primary-background-color)
   # Dropdown Colors
-  material-background-color: var(--paper-card-background-color)
+  material-background-color: var(--primary-background-color)
   material-secondary-background-color: var(--primary-background-color)
-  mdc-theme-surface: var(--paper-card-background-color)
+  mdc-theme-surface: var(--primary-background-color)
   # Convenience
   primary-name-text-color: grey
   primary-state-text-color: grey
   primary-icon-color: grey
-  ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(255,255,255,.5), inset 5.5px 5.5px 5.5px 0 rgba(0,0,0,.03)
-  primary-yellow: '#fad46b'
-  dark-primary-yellow: '#dab44b'
-  red: '#dc3545'
-  orange: '#fd7e14'
-  yellow: '#ffc107'
-  green: '#28a745'
-  blue: '#007bff'
-  purple: '#6f42c1'
+  ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(255, 255, 255, .5), inset 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .03)
+  primary-yellow: '#FAD46B'
+  dark-primary-yellow: '#DAB44B'
+  red: '#DC3545'
+  orange: '#FD7E14'
+  yellow: '#FFC107'
+  green: '#28A745'
+  blue: '#007BFF'
+  purple: '#6D42C1'
   # Card-mod
   card-mod-theme: "Light Soft UI"
   theme-red: firebrick
@@ -106,7 +105,7 @@ Light Soft UI:
       }
       ha-card:not(.type-markdown):not(.type-custom-button-card):not(.type-entities):not(.type-custom-mod-card):not(.type-custom-bar-card):not(.type-history-graph):not(.type-iframe):not(.type-glance) {
         margin: 20px 0;
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5), 8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255, 255, 255, .5), 8px 8px 8px 0 rgba(0, 0, 0, .03);
       }
       ha-card.type-custom-vacuum-card > .preview {
         --primary-color: var(--primary-background-color);
@@ -153,13 +152,13 @@ Light Soft UI:
       ha-card > hui-graph-header-footer,
       ha-card.type-glance > .entities,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5), 8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255, 255, 255, .5), 8px 8px 8px 0 rgba(0, 0, 0, .03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
       }
       ha-card.type-map, ha-card.type-iframe > #root {
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255, 255, 255, .5),8px 8px 8px 0 rgba(0, 0, 0, .03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
         padding: 10px;
@@ -169,7 +168,7 @@ Light Soft UI:
       }
       ha-card.type-entity > .info {
         padding: 16px;
-        box-shadow: -8px -8px 8px 0 rgba(255,255,255,.5),8px 8px 8px 0 rgba(0,0,0,.03);
+        box-shadow: -8px -8px 8px 0 rgba(255, 255, 255, .5),8px 8px 8px 0 rgba(0, 0, 0, .03);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
       }
@@ -236,7 +235,7 @@ Light Soft UI:
           {% elif is_state(config.entity, 'locked') %} var(--theme-red);
           {% else %} var(--theme-blue); {% endif %}
         --label-badge-red: teal;
-        box-shadow: -5px -5px 5px 0 rgba(255,255,255,.5), 5px 5px 5px 0 rgba(0,0,0,.03);
+        box-shadow: -5px -5px 5px 0 rgba(255, 255, 255, .5), 5px 5px 5px 0 rgba(0, 0, 0, .03);
       }
     ha-state-label-badge:
       $:
