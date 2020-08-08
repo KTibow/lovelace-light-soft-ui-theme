@@ -222,8 +222,16 @@ Light Soft UI:
         color: var(--primary-text-color) !important;
       }
       app-header.edit-mode {
-        border-bottom: 5px var(--purple) solid;
+        border-bottom: 3px var(--mdc-theme-secondary) solid;
         padding-bottom: 10px;
+      }
+      #add-view ha-svg-icon {
+        background-color: var(--mdc-theme-secondary) !important;
+        color: #EEE !important;
+        border-radius: 5px !important;
+      }
+      .edit-icon {
+        color: var(--mdc-theme-secondary) !important;
       }
       ha-button-menu {
         top: 24px;
