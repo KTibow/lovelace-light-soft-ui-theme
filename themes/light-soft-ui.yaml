@@ -10,6 +10,7 @@ Light Soft UI:
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   card-background-color: var(--paper-card-background-color)
+  mdc-theme-secondary: "#6077EB"
   # Text Colors
   primary-text-color: "#4A4A4A"
   secondary-text-color: var(--primary-text-color)
@@ -219,6 +220,10 @@ Light Soft UI:
       .edit-mode, app-header, app-toolbar {
         background-color: var(--primary-background-color) !important;
         color: var(--primary-text-color) !important;
+      }
+      app-header.edit-mode {
+        border-bottom: 5px var(--purple) solid;
+        padding-bottom: 10px;
       }
       ha-button-menu {
         top: 24px;
