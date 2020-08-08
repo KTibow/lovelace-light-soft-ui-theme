@@ -1,8 +1,5 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI:
-  # Header Colors
-  app-header-background-color: var(--primary-background-color)
-  app-header-text-color: var(--primary-text-color)
   # Interface Colors
   primary-color: "#5F9BEA"
   light-primary-color: var(--primary-color)
@@ -10,19 +7,21 @@ Light Soft UI:
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
   card-background-color: var(--paper-card-background-color)
-  mdc-theme-secondary: "#6077EB"
+  mdc-theme-secondary: var(--primary-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
   secondary-text-color: var(--primary-text-color)
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
-  # Sidebar Menu Colors
+  # Menu Colors
   sidebar-icon-color: var(--primary-text-color)
   sidebar-text-color: var(--primary-text-color)
   sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
   sidebar-selected-icon-color: var(--primary-color)
   sidebar-selected-text-color: var(--primary-color)
+  app-header-background-color: var(--primary-background-color)
+  app-header-text-color: var(--primary-text-color)
   # State and Badge Colors
   state-icon-color: "#5F6267"
   state-icon-active-color: "#5F9BEA"
@@ -228,16 +227,16 @@ Light Soft UI:
         color: var(--primary-text-color) !important;
       }
       app-header.edit-mode {
-        border-bottom: 3px var(--mdc-theme-secondary) solid;
+        border-bottom: 2px var(--primary-color) solid;
         padding-bottom: 10px;
       }
       #add-view ha-svg-icon {
-        background-color: var(--mdc-theme-secondary) !important;
+        background-color: var(--primary-color) !important;
         color: #EEE !important;
         border-radius: 5px !important;
       }
       .edit-icon {
-        color: var(--mdc-theme-secondary) !important;
+        color: var(--primary-color) !important;
       }
       ha-button-menu {
         top: 24px;
