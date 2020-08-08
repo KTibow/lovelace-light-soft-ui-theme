@@ -3,20 +3,17 @@
 Home Assistant light theme, built on from @JuanMTech, using style boilerplates from @thomasloven and @N-L1.  
 This theme depends on [`card-mod`](https://github.com/thomasloven/lovelace-card-mod) for the soft-ui styling.  
 Looking for the [dark theme instead?](https://github.com/KTibow/lovelace-dark-soft-ui-theme/)  
-And [these things are supported](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/3).  
+This theme is pretty powerful. It can:
+- Apply soft-ui to an auto-generated dashboard, and keep it auto-generated.
+- Help you to only use the necessary style in your handmade dashboard, and keep it simple.
+- Work in most places over HA, not just Lovelace.
+- Apply a compact header to Lovelace, without installing an addon.
 ## Screenshot
 [![Screenshot of it](lighttheme.png)](#)
-## Features
-- Can instantly declutter an auto-generated dashboard, without needing to edit it (and disable auto-generation)
-- Works with auto-generated dashboards and handmade ones
-- Works with badges
-- Gives cards in dashboards and cards everywhere soft UI
-- Can help to make your config smaller:
-  - You can just house each card separately, instead of having to use a vertical stack.
-  - You can remove plain styling, and just style what's important.
 ## Notes
 - You can use your own colors by just copy/pasting the card-mod part.
 - This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
+- [These things are supported.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/3)
 - These other notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
 <details><summary>Expand anyway</summary>
 
