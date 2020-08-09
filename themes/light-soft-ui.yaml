@@ -219,6 +219,11 @@ Light Soft UI:
         .not-visible {
           display: none;
         }
+    "app-header[before]":
+      $:
+        ::before {
+          box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.3);
+        }
     .: |
       app-toolbar:not(.edit-mode) {
         height: 0;
