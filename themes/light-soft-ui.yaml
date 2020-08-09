@@ -8,6 +8,7 @@ Light Soft UI:
   divider-color: var(--primary-background-color)
   card-background-color: var(--paper-card-background-color)
   mdc-theme-secondary: var(--primary-color)
+  accent-color: var(--primary-color)
   # Text Colors
   primary-text-color: "#4A4A4A"
   secondary-text-color: var(--primary-text-color)
