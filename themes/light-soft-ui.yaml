@@ -219,11 +219,6 @@ Light Soft UI:
         .not-visible {
           display: none;
         }
-    "app-header[before]":
-      $:
-        ::before {
-          box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.3);
-        }
     .: |
       app-toolbar:not(.edit-mode) {
         height: 0;
@@ -235,6 +230,9 @@ Light Soft UI:
       app-header.edit-mode {
         border-bottom: 2px var(--primary-color) solid;
         padding-bottom: 10px;
+      }
+      app-header[shadow] > ::before {
+        box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.3);
       }
       #add-view ha-svg-icon {
         background-color: var(--primary-color) !important;
