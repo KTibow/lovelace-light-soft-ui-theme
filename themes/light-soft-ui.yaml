@@ -2,7 +2,7 @@
 Light Soft UI:
   # Interface colors:
   primary-color: "#5F9BEA"
-  light-primary-color: var(--primary-color)
+  light-primary-color: "#80B7FF"
   primary-background-color: "#F3F5F7"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
@@ -19,12 +19,12 @@ Light Soft UI:
   sidebar-text-color: var(--primary-text-color)
   sidebar-background-color: var(--primary-background-color)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: var(--primary-color)
-  sidebar-selected-text-color: var(--primary-color)
+  sidebar-selected-icon-color: var(--light-primary-color)
+  sidebar-selected-text-color: var(--light-primary-color)
   app-header-background-color: var(--primary-background-color)
   app-header-text-color: var(--primary-text-color)
   # State and badge colors:
-  state-icon-color: "#5F6267"
+  state-icon-color: var(--primary-color)
   state-icon-active-color: "#5F9BEA"
   state-icon-unavailable-color: var(--disabled-text-color)
   # Slider colors:
