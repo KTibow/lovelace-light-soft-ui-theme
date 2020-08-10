@@ -29,13 +29,13 @@ Light Soft UI:
   state-icon-active-color: var(--primary-color)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: "#5F9BD3"
-  paper-slider-knob-start-color: var(--paper-slider-knob-color)
-  paper-slider-pin-color: var(--paper-slider-knob-color)
-  paper-slider-active-color: var(--paper-slider-knob-color)
+  paper-slider-knob-color: var(--primary-color)
+  paper-slider-knob-start-color: var(--primary-color)
+  paper-slider-pin-color: var(--primary-color)
+  paper-slider-active-color: var(--primary-color)
   paper-slider-secondary-color: var(--light-primary-color)
   # Labels
-  label-badge-background-color: var(--primary-color)
+  label-badge-background-color: var(--primary-background-color)
   label-badge-text-color: var(--primary-text-color)
   label-badge-red: "#C7484C"
   label-badge-green: "#6DC071"
