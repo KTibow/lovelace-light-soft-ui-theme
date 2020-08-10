@@ -6,7 +6,7 @@ Light Soft UI:
   primary-background-color: "#F3F5F7"
   secondary-background-color: var(--primary-background-color)
   divider-color: var(--primary-background-color)
-  card-background-color: var(--paper-card-background-color)
+  card-background-color: var(--primary-background-color)
   mdc-theme-secondary: var(--primary-color)
   accent-color: var(--primary-color)
   # Text colors:
@@ -61,7 +61,7 @@ Light Soft UI:
   data-table-background-color: var(--primary-background-color)
   # Dropdown colors:
   material-background-color: var(--primary-background-color)
-  material-secondary-background-color: "#E3E5E7"
+  material-secondary-background-color: rgba(0, 0, 0, 0.1)
   mdc-theme-surface: var(--primary-background-color)
   # Convenience:
   primary-name-text-color: grey
