@@ -233,6 +233,9 @@ Light Soft UI:
         border-bottom: 2px var(--primary-color) solid;
         padding-bottom: 10px;
       }
+      #contentContainer {
+        padding-top: 56px;
+      }
       app-header[shadow] > ::before {
         box-shadow: inset 0px 5px 6px -3px rgba(0, 0, 0, 0.3);
       }
