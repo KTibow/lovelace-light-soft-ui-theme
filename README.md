@@ -14,6 +14,7 @@ This theme is pretty powerful. It can:
 - You can use your own colors by just copy/pasting the card-mod part.
 - This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
 - [These things are supported.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/3)
+- This theme was based off of the [Google Light Theme](https://github.com/JuanMTech/google_light_theme/blob/v1.8/themes/google_light_theme.yaml) at `v1.8`.
 - These other notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
 <details><summary>Expand anyway</summary>
 
