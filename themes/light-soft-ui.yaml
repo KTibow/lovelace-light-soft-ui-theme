@@ -221,10 +221,10 @@ Light Soft UI:
         .not-visible {
           display: none;
         }
-    "app-header:not(.edit-mode)":
+    "ha-app-layout":
       $: |
-        #contentContainer {
-          padding-top: 56px;
+        #contentContainer[style="padding-top: 180px;"] {
+          padding-top: 90px;
         }
     .: |
       app-toolbar:not(.edit-mode) {
