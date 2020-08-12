@@ -335,7 +335,7 @@ Light Soft UI:
         ha-label-badge:
           $: |
             .label-badge {
-              background: none !important;
+              background: none;
             }
             .title {
               -webkit-line-clamp: 1;
