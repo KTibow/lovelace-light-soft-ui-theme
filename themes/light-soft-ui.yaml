@@ -215,6 +215,9 @@ Light Soft UI:
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
       }
+      #map {
+        border-radius: 15px;
+      }
   card-mod-root-yaml: |
     paper-tabs:
       $: |
