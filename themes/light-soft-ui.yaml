@@ -160,13 +160,9 @@ Light Soft UI:
       ha-card > .header-footer,
       ha-card > hui-graph-header-footer,
       ha-card.type-glance > .entities,
-      ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content {
-        box-shadow: var(--ha-card-box-shadow);
-        border-radius: var(--ha-card-border-radius);
-        margin: 12px;
-        padding: 10px;
-      }
-      ha-card.type-map, ha-card.type-iframe > #root {
+      ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content,
+      ha-card.type-map > #map,
+      ha-card.type-iframe > #root {
         box-shadow: var(--ha-card-box-shadow);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
@@ -214,9 +210,6 @@ Light Soft UI:
       }
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
-      }
-      #map {
-        border-radius: 15px;
       }
   card-mod-root-yaml: |
     paper-tabs:
