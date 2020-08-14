@@ -226,8 +226,8 @@ Light Soft UI:
         }
     "ha-app-layout":
       $: |
-        #contentContainer[style="padding-top: 180px;"] {
-          padding-top: 90px;
+        #contentContainer {
+          padding-top: 70px;
         }
     .: |
       app-toolbar:not(.edit-mode) {
