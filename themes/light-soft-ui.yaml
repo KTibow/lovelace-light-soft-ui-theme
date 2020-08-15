@@ -211,6 +211,9 @@ Light Soft UI:
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
       }
+      hui-map-card {
+        flex: 0 0 auto;
+      }
   card-mod-root-yaml: |
     paper-tabs:
       $: |
@@ -307,6 +310,9 @@ Light Soft UI:
     }
     #columns > .column {
       margin: 0 15px;
+    }
+    hui-map-card {
+      flex: 0 0 auto;
     }
   card-mod-badge-yaml: |
     .: |
