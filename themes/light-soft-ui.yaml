@@ -139,9 +139,9 @@ Light Soft UI:
       }
       ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity,
       ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,
-      ha-card.type-glance {
+      ha-card.type-glance, ha-card.type-custom-button-text-card {
         box-shadow: none !important;
-        margin: 30px 6px;
+        margin: 25px 6px;
       }
       ha-card > #states > div > * {
         padding-top: 8px;
