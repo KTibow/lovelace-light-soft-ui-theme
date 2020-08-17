@@ -153,7 +153,7 @@ Light Soft UI:
         border-radius: 15px;
       }
       ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity,
-      ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,#224
+      ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,
       ha-card.type-glance, ha-card.type-custom-button-text-card {
         box-shadow: none !important;
         margin: 25px 6px;
