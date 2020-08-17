@@ -342,11 +342,19 @@ Light Soft UI:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background: rgba(255, 255, 255, 0.35);
+        background-color: #F3F5F7B2 !important;
+      }
+      .mdc-dialog__scrim {
+        background-color: #F3F5F7B2 !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
-        background: rgba(255, 255, 255, 0.8);
+        background: rgba(255, 255, 255, 0.9);
         border-radius: var(--ha-card-border-radius);
+        box-shadow: var(--ha-card-box-shadow);
+      }
+      .mdc-dialog__content {
+        padding: 24px !important;
+        padding-bottom: 24px !important;
       }
     ha-header-bar:
       $: |
