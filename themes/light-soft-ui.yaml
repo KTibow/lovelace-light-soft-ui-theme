@@ -371,7 +371,7 @@ Light Soft UI:
         background-color: #F3F5F7B2 !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
-        background: rgba(255, 255, 255, 0.9);
+        background: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
         box-shadow: var(--ha-card-box-shadow);
       }
