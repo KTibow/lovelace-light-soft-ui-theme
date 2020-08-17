@@ -295,6 +295,9 @@ Light Soft UI:
       app-header.edit-mode > paper-tabs {
         margin-left: 0;
       }
+      app-toolbar a {
+        color: var(--primary-color) !important;
+      }
   card-mod-view: |
     #badges {
       width: 90%;
