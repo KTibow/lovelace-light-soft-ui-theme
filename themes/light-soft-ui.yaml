@@ -154,7 +154,8 @@ Light Soft UI:
       }
       ha-card.type-entities, ha-card.type-custom-bar-card, ha-card.type-entity,
       ha-card.type-history-graph, ha-card.type-map, ha-card.type-iframe,
-      ha-card.type-glance, ha-card.type-custom-button-text-card {
+      ha-card.type-glance, ha-card.type-custom-button-text-card,
+      ha-card.type-custom-select-list-card {
         box-shadow: none !important;
         margin: 25px 6px;
       }
@@ -177,7 +178,8 @@ Light Soft UI:
       ha-card.type-glance > .entities,
       ha-card:not(.type-humidifier):not(.type-light):not(.type-weather-forecast) > .content,
       ha-card.type-map > #root > #map,
-      ha-card.type-iframe > #root {
+      ha-card.type-iframe > #root,
+      ha-card.type-custom-select-list-card > #list {
         box-shadow: var(--ha-card-box-shadow);
         border-radius: var(--ha-card-border-radius);
         margin: 12px;
