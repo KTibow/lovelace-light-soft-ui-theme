@@ -267,6 +267,9 @@ Light Soft UI:
       paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
       }
+      paper-tab[aria-selected="true"] {
+        color: var(--primary-color) !important;
+      }
       @media (orientation: portrait) {
         ha-button-menu {
           margin-left: calc(100% - 80px);
