@@ -316,7 +316,7 @@ Light Soft UI:
         margin-left: 0;
       }
       app-toolbar a {
-        color: var(--primary-color) !important;
+        color: var(--primary-text-color) !important;
       }
   card-mod-view: |
     #badges {
