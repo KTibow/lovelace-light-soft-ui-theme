@@ -19,5 +19,6 @@ This theme can
 - Work in most places over HA, not just Lovelace.
 - Apply a compact header to Lovelace, without installing an addon.
 ## More details
-This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
+This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)  
+Customize your cards more with [the full soft UI guide](https://github.com/N-l1/lovelace-soft-ui).  
 Go see more [over on GitHub](https://github.com/KTibow/lovelace-light-soft-ui-theme/).
