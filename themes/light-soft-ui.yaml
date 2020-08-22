@@ -101,6 +101,7 @@ Light Soft UI:
   theme-green: forestgreen
   theme-blue: deepskyblue
   ha-label-badge-title-font-size: 1em
+  # Cards
   card-mod-card-yaml: |
     hui-image:
       $: |
@@ -228,6 +229,7 @@ Light Soft UI:
       ha-icon[data-domain="fan"][data-state="on"] {
         animation: spin 4s infinite linear;
       }
+  # Header
   card-mod-root-yaml: |
     paper-tabs:
       $: |
@@ -318,6 +320,7 @@ Light Soft UI:
       app-toolbar a {
         color: var(--primary-text-color) !important;
       }
+  # Badges and columnas
   card-mod-view: |
     #badges {
       width: 90%;
@@ -361,6 +364,7 @@ Light Soft UI:
               display: -webkit-box;
               -webkit-box-orient: vertical;
             }
+  # Style more info
   card-mod-more-info-yaml: |
     $: |
       .mdc-dialog {
@@ -374,6 +378,7 @@ Light Soft UI:
         background: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
         box-shadow: var(--ha-card-box-shadow);
+        margin: 24px;
       }
       .mdc-dialog__content {
         padding: 24px !important;
@@ -384,6 +389,7 @@ Light Soft UI:
         .mdc-top-app-bar {
           background: none !important;
         }
+  # Spin fans
   card-mod-row-yaml: |
     "*:first-child":
       $: |
