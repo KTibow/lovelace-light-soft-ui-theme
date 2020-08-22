@@ -378,7 +378,7 @@ Light Soft UI:
         background: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
         box-shadow: var(--ha-card-box-shadow);
-        margin: 24px;
+        transform: scale(0.95);
       }
       .mdc-dialog__content {
         padding: 24px !important;
