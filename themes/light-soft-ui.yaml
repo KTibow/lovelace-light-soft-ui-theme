@@ -378,11 +378,12 @@ Light Soft UI:
         background: var(--primary-background-color);
         border-radius: var(--ha-card-border-radius);
         box-shadow: var(--ha-card-box-shadow);
-        transform: scale(0.95);
+        transform: scale(0.9);
       }
       .mdc-dialog__content {
-        padding: 24px !important;
-        padding-bottom: 24px !important;
+        padding: 36px !important;
+        padding-bottom: 36px !important;
+        transform: scale(1.11);
       }
     ha-header-bar:
       $: |
