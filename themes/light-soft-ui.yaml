@@ -320,20 +320,26 @@ Light Soft UI:
       app-toolbar a {
         color: var(--primary-text-color) !important;
       }
-  # Badges and columnas
-  card-mod-view: |
-    #badges {
-      width: 90%;
-      margin: 8px auto !important;
-    }
-    #columns {
-      flex-direction: column !important;
-      margin: 0 auto;
-      max-width: 500px;
-    }
-    #columns > .column {
-      margin: 0 15px;
-    }
+  # Badges and columns
+  card-mod-view-yaml: |
+    hui-vertical-stack-card:
+      $: |
+        .card-header {
+          text-align: center;
+        }
+    .: |
+      #badges {
+        width: 90%;
+        margin: 8px auto !important;
+      }
+      #columns {
+        flex-direction: column !important;
+        margin: 0 auto;
+        max-width: 500px;
+      }
+      #columns > .column {
+        margin: 0 15px;
+      }
   card-mod-badge-yaml: |
     .: |
       :host {
