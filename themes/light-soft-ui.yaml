@@ -76,13 +76,16 @@ Light Soft UI:
   soft-ui-shadow: var(--ha-card-box-shadow)
   red: "#eb6060"
   red-orange: "#eb8e60"
+  orange-red: "#eb9a60"
   orange: "#eba560"
   orange-yellow: "#ebc860"
+  yellow-orange: "#ebd460"
   yellow: "#ebdf60"
   yellow-green: "#c8eb60"
   green-yellow: "#b1eb60"
   green: "#60eb60"
   green-cyan: "#60eba5"
+  cyan-green: "#60ebc8"
   cyan: "#60ebeb"
   cyan-blue: "#60bceb"
   blue-cyan: "#608eeb"
@@ -112,6 +115,11 @@ Light Soft UI:
       $: |
         .dial {
           stroke: white !important;
+        }
+    ha-markdown:
+      $: |
+        h1 {
+          text-align: center;
         }
     .: |
       * {
