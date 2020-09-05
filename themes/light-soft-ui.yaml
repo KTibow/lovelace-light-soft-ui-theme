@@ -70,10 +70,11 @@ Light Soft UI:
   primary-name-text-color: grey
   primary-state-text-color: grey
   primary-icon-color: grey
-  ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(255, 255, 255, .5), inset 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .03)
-  soft-ui-pressed: var(--ha-card-box-shadow-inset)
   primary-yellow: "#FAD46B"
   dark-primary-yellow: "#DAB44B"
+  tertiary-background-color: "#DAE2EB"
+  ha-card-box-shadow-inset: inset -5.5px -5.5px 5.5px 0 rgba(255, 255, 255, .5), inset 5.5px 5.5px 5.5px 0 rgba(0, 0, 0, .03)
+  soft-ui-pressed: var(--ha-card-box-shadow-inset)
   soft-ui-shadow: var(--ha-card-box-shadow)
   red: "#eb6060"
   red-orange: "#eb8e60"
