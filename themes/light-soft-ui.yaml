@@ -278,11 +278,12 @@ Light Soft UI:
         top: 24px;
         z-index: 2;
         margin-left: calc(100% - 96px - 20px);
+        position: relative;
       }
       mwc-icon-button[label="Start conversation"] {
         top: 24px;
         z-index: 2;
-        margin-left: calc(100% - 96px - 48px - 20px);
+        margin-left: 10px;
       }
       app-toolbar:not(.edit-mode) > [main-title] {
         display: none;
