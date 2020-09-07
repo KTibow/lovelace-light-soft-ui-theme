@@ -277,7 +277,12 @@ Light Soft UI:
       ha-button-menu {
         top: 24px;
         z-index: 2;
-        margin-left: calc(100% - 96px);
+        margin-left: calc(100% - 96px - 20px);
+      }
+      mwc-icon-button[label="Start conversation"] {
+        top: 24px;
+        z-index: 2;
+        margin-left: calc(100% - 96px - 48px - 20px);
       }
       app-toolbar:not(.edit-mode) > [main-title] {
         display: none;
