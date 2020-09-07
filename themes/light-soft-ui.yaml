@@ -274,16 +274,18 @@ Light Soft UI:
       .edit-icon {
         color: var(--primary-color) !important;
       }
-      ha-button-menu {
-        top: 24px;
-        z-index: 2;
-        margin-left: calc(100% - 96px - 20px);
-        position: relative;
-      }
       mwc-icon-button[label="Start conversation"] {
-        top: 24px;
+        top: 0;
+        right: 48px;
         z-index: 2;
-        margin-left: 10px;
+        position: absolute;
+      }
+      ha-button-menu {
+        top: 0;
+        right: 0;
+        z-index: 2;
+        margin-left: 5px;
+        position: absolute;
       }
       app-toolbar:not(.edit-mode) > [main-title] {
         display: none;
