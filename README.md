@@ -25,7 +25,7 @@ Some fonts that you should probably download and install that I think match Soft
 Upload the `woff2` into `/config/www`, and then make a file called `/config/www/fonts.js` which contains this:
 ```js
 function loadcss() {
-    let css = '/local/fonts.css?v=0.001'
+    let css = '/local/fonts.css?v=0.001';
     
     let link = document.createElement('link');
     let head = document.getElementsByTagName('head')[0];
