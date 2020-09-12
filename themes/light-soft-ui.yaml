@@ -5,6 +5,7 @@ Light Soft UI:
   light-primary-color: "#80B7FF"
   accent-color: "#60CAEB"
   mdc-theme-secondary: var(--accent-color)
+  error-color: "#D18E41"
   # Background
   primary-background-color: "#F3F5F7"
   secondary-background-color: var(--primary-background-color)
