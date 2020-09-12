@@ -15,22 +15,41 @@ This theme is pretty powerful. It can:
 - This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
 - [These things are supported.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/3)
 - This theme was based off of the [Google Light Theme](https://github.com/JuanMTech/Home_Assistant_files/blob/b2ffbf2a3ffc05638b02f06d63e45618740ae281/themes/google_light_theme.yaml).
-- These other notes may be outdated, and most of the time you can just use `!important`. You should probably just look at the [source](https://git.io/JJBsz).
-<details><summary>Expand anyway</summary>
+## Fonts
+Some fonts that you should probably download and install that I think match Soft UI, or just load as a CSS resource:
+- Quicksand: [Google Fonts page](https://fonts.google.com/specimen/Quicksand), [download](https://fonts.google.com/download?family=Quicksand), [Google Fonts css](https://fonts.googleapis.com/css?family=Quicksand&display=swap).
+- Cascadia Code PL: [download](https://github.com/microsoft/cascadia-code/releases/latest) (click on the top asset, download, unzip, find `CascadiaCodePL.woff2`).
+  
+<details><summary>Tutorial on how to load any font into your browser</summary>
 
-This theme can modify how you style cards. Here's some points:
-- To add soft-ui to cameras, there's extra margin and border radius added to the images and label.
-- All non-markdown cards will be given background. Make it transparent instead to undo.
-- All non-markdown, non-custom-button-card, non-entities, non-custom-mod-card cards will be given 30px margin and a standard box shadow.
-- The whole entity card will have no shadow, 30px margin vertically, and 20px margin horizontally.
-- Every entity in the entities card will have 8px padding up/down, `display: block`, `95%` width, and margin `0 auto 0 5px`.
-- All media control cards will have text color of `5F6267` and background color that matches.
-- The actual entities in the entities card will have standard box shadow, border radius, and `12px` margin and `10px` padding.
-- The header of the entities card will have no box shadow, and the name will use `100%` of the card width and be centered.
-- The badge area will take up `90%` width max, centered horizontally, and with 8px vertical margin.
-- All cards will be constrained vertically, with just 1 column and max width of `500px`. (Technically there's multiple columns, but we stack them vertically. Also panel mode won't be affected.)
-- The badge will have `5px` border radius, `11px 8px` padding, `11px 12px` margin, `inline-block` display, and a standard thin box shadow.
-- Badge color will be changed (I don't fully understand how it works)
-- Descriptions will be clamped to one line, and font size will be `1em`.
-- More info dialogs will cause the background to be blurred by `2.5px`, and make it slightly whited out. The dialog will have standard border radius, and a background of `rgba(255, 255, 255, 0.8)`, and the header will have the same background as the rest.
+Upload the `woff2` into `/config/www`, and then make a file called `/config/www/fonts.js` which contains this:
+```js
+function loadcss() {
+    let css = '/local/fonts.css?v=0.001'
+    
+    let link = document.createElement('link');
+    let head = document.getElementsByTagName('head')[0];
+    let tmp;
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+
+    tmp = link.cloneNode(true);
+    tmp.href = css;
+    head.appendChild(tmp);
+    console.info('%c Loaded font CSS at ' + css, 'color: white; background: #000; font-weight: 700;');
+}
+loadcss();
+```
+Then make a file called `/config/www/fonts.css` which contains this:
+```css
+@font-face {
+  font-family: 'Cascadia Code PL';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/local/CascadiaCodePL.woff2) format('woff2');
+}
+```
+(For each font, create the same thing in the file, but changing the source and name of font.)  
+Then finally add `/local/fonts.js` to your list of lovelace resources. (Maybe?) Restart Home Assistant. Press Ctrl+Shift+R. Done!  
+Credit to https://community.home-assistant.io/t/use-ttf-in-lovelace/143495.
 </details>
