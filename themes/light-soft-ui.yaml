@@ -45,11 +45,11 @@ Light Soft UI:
   # Labels
   label-badge-background-color: var(--primary-background-color)
   label-badge-text-color: var(--primary-text-color)
-  label-badge-red: "#C7484C"
-  label-badge-green: "#6DC071"
-  label-badge-blue: "#51AAD1"
-  label-badge-yellow: "#D9B757"
-  label-badge-gray: "#5F6267"
+  label-badge-red: "#EB6065"
+  label-badge-green: "#60EB67"
+  label-badge-blue: "#60B1EB"
+  label-badge-yellow: "#EBC860"
+  label-badge-gray: "#666F80"
   # Cards
   ha-card-border-radius: "13.75px"
   ha-card-box-shadow: -5.25px -5.25px 5.25px 0 rgba(255, 255, 255, .5), 5.25px 5.25px 5.25px 0 rgba(0, 0, 0, .03)
