@@ -22,12 +22,13 @@ Light Soft UI:
   # Fonts
   paper-font-headline_-_font-family: Quicksand, Roboto, sans-serif
   paper-font-headline_-_font-weight: "600"
-  paper-font-subhead_-_font-family: Quicksand
+  paper-font-subhead_-_font-family: Quicksand, Roboto, sans-serif
   paper-font-subhead_-_font-weight: "550"
   paper-font-subhead_-_line-height: 2.6em
   ha-card-header-font-family: Quicksand, Roboto, sans-serif
   ha-card-header-font-weight: "600"
-  paper-font-common-code_-_font-family: Cascadia Code PL, Cascadia Mono PL, Cascadia Code, Cascadia Mono, monospace
+  code-font-family: Cascadia Code PL, Cascadia Mono PL, Cascadia Code, Cascadia Mono, monospace
+  paper-font-common-code_-_font-family: var(--code-font-family)
   # Sidebar
   sidebar-icon-color: var(--primary-text-color)
   sidebar-text-color: var(--primary-text-color)
