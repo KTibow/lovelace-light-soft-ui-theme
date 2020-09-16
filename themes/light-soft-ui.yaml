@@ -5,7 +5,11 @@ Light Soft UI:
   light-primary-color: "#80B7FF"
   accent-color: "#60CAEB"
   mdc-theme-secondary: var(--accent-color)
-  error-color: "#D18E41"
+  # More colors
+  success-color: "#77EB60"
+  info-color: var(--primary-color)
+  warning-color: "#EBEB60"
+  error-color: "#D18941"
   # Background
   primary-background-color: "#F3F5F7"
   secondary-background-color: var(--primary-background-color)
@@ -18,6 +22,9 @@ Light Soft UI:
   # Fonts
   paper-font-headline_-_font-family: Quicksand, Roboto, sans-serif
   paper-font-headline_-_font-weight: "600"
+  paper-font-subhead_-_font-family: Quicksand
+  paper-font-subhead_-_font-weight: "550"
+  paper-font-subhead_-_line-height: 2.6em
   ha-card-header-font-family: Quicksand, Roboto, sans-serif
   ha-card-header-font-weight: "600"
   paper-font-common-code_-_font-family: Cascadia Code PL, Cascadia Mono PL, Cascadia Code, Cascadia Mono, monospace
