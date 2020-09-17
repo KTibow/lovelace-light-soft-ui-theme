@@ -16,6 +16,7 @@ Light Soft UI:
   # Text
   primary-text-color: "#4A4A4A"
   secondary-text-color: var(--primary-text-color)
+  codemirror-meta: var(--primary-text-color)
   material-secondary-text-color: var(--secondary-text-color)
   text-primary-color: "#FFFFFF"
   disabled-text-color: "#717171"
