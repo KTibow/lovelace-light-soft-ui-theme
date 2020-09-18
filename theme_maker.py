@@ -28,8 +28,10 @@ for color_name, color_hue in [
     accent_color = convert_color(accent_color)
     background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.025, 0.97)
     background_color = convert_color(background_color)
+    if color_name != "":
+        color_name = " " + color_name
     file_color_name = color_name.lower().replace(" ", "-")
-    with open(rf"themes\light-soft-ui-{file_color_name}.yaml", "w") as theme_file:
+    with open(rf"themes\light-soft-ui{file_color_name}.yaml", "w") as theme_file:
         theme_file.write(
             theme.replace("{color_name}", color_name)
             .replace("{primary_color}", primary_color)
