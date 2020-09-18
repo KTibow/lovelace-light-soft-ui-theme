@@ -3,7 +3,7 @@ Light Soft UI Lime:
   # Color
   primary-color: "#a5eb60"
   light-primary-color: var(--primary-color)
-  accent-color: "#dfeb60"
+  accent-color: "#c8eb60"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"

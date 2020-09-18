@@ -19,13 +19,12 @@ for color_name, color_hue in [
     ["Mint", 155],
     ["Cyan", 190],
     ["", 214],
-    ["Indigo", 260],
-    ["Purple", 275],
+    ["Purple", 270],
     ["Pink", 300],
 ]:
     primary_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.59, 0.92)
     primary_color = convert_color(primary_color)
-    accent_color = colorsys.hsv_to_rgb(((color_hue - 25) % 360) / 360.0, 0.59, 0.92)
+    accent_color = colorsys.hsv_to_rgb(((color_hue - 15) % 360) / 360.0, 0.59, 0.92)
     accent_color = convert_color(accent_color)
     background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.02, 0.97)
     background_color = convert_color(background_color)

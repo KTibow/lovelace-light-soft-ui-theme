@@ -3,7 +3,7 @@ Light Soft UI Yellow:
   # Color
   primary-color: "#ebdd60"
   light-primary-color: var(--primary-color)
-  accent-color: "#eba360"
+  accent-color: "#ebba60"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"

@@ -3,7 +3,7 @@ Light Soft UI Fire:
   # Color
   primary-color: "#eb8a60"
   light-primary-color: var(--primary-color)
-  accent-color: "#eb6070"
+  accent-color: "#eb6760"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"

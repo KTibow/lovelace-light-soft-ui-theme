@@ -3,7 +3,7 @@ Light Soft UI Cyan:
   # Color
   primary-color: "#60d4eb"
   light-primary-color: var(--primary-color)
-  accent-color: "#60ebc8"
+  accent-color: "#60ebdf"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"

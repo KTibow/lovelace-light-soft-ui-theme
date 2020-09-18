@@ -3,7 +3,7 @@ Light Soft UI Orange:
   # Color
   primary-color: "#ebb360"
   light-primary-color: var(--primary-color)
-  accent-color: "#eb7a60"
+  accent-color: "#eb9160"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
