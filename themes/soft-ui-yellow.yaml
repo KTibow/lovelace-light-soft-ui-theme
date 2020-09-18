@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
-Light Soft UI:
+Light Soft UI Yellow:
   # Color
-  primary-color: "#5F9BEA"
-  light-primary-color: "#80B7FF"
-  accent-color: "#60CAEB"
+  primary-color: ebdd60
+  light-primary-color: var(--primary-color)
+  accent-color: eba360
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#F3F5F7"
+  primary-background-color: f7f7f0
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"
@@ -25,7 +25,7 @@ Light Soft UI:
   paper-font-headline_-_font-weight: "600"
   paper-font-subhead_-_font-family: Quicksand, Roboto, sans-serif
   paper-font-subhead_-_font-weight: "550"
-  paper-font-subhead_-_line-height: 2.6em
+  paper-font-subhead_-_line-height: 2.4em
   ha-card-header-font-family: Quicksand, Roboto, sans-serif
   ha-card-header-font-weight: "600"
   code-font-family: Cascadia Code PL, Cascadia Mono PL, Cascadia Code, Cascadia Mono, monospace
