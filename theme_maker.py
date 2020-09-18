@@ -31,8 +31,8 @@ for color_name, color_hue in [
     accent_color = colorsys.hsv_to_rgb(((color_hue - 25) % 360) / 360.0, 0.59, 0.92)
     accent_color = convert_color(accent_color)
     background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.03, 0.97)
-    background_color = convert_color(background_color)
     # background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.13, 0.22)
+    background_color = convert_color(background_color)
     with open(
         rf"themes\soft-ui-{color_name.lower().replace(' ', '-')}.yaml", "w"
     ) as theme_file:
