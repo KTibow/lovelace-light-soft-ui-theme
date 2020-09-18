@@ -118,7 +118,7 @@ Light Soft UI Orange:
   pink-red: "#eb60bc"
   red-pink: "#eb608e"
   # Card-mod
-  card-mod-theme: "Light Soft UI"
+  card-mod-theme: "Light Soft UI Orange"
   theme-red: firebrick
   theme-green: forestgreen
   theme-blue: deepskyblue
