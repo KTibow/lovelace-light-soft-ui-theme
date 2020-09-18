@@ -16,9 +16,8 @@ for color_name, color_hue in [
     ["Yellow", 54],
     ["Lime", 90],
     ["Green", 129],
-    ["Mint Green", 155],
-    ["Mint", 180],
-    ["Cyan", 200],
+    ["Mint", 155],
+    ["Cyan", 190],
     ["", 214],
     ["Indigo", 260],
     ["Purple", 275],
@@ -31,9 +30,8 @@ for color_name, color_hue in [
     background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.03, 0.97)
     # background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.13, 0.22)
     background_color = convert_color(background_color)
-    with open(
-        rf"themes\light-soft-ui-{color_name.lower().replace(' ', '-')}.yaml", "w"
-    ) as theme_file:
+    file_color_name = color_name.lower().replace(" ", "-")
+    with open(rf"themes\light-soft-ui-{file_color_name}.yaml", "w") as theme_file:
         theme_file.write(
             theme.replace("{color_name}", color_name)
             .replace("{primary_color}", primary_color)
