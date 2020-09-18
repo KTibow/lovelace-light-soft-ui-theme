@@ -25,7 +25,7 @@ Light Soft UI Cyan:
   paper-font-headline_-_font-weight: "600"
   paper-font-subhead_-_font-family: Quicksand, Roboto, sans-serif
   paper-font-subhead_-_font-weight: "550"
-  paper-font-subhead_-_line-height: 2.4em
+  paper-font-subhead_-_line-height: 2.2em
   ha-card-header-font-family: Quicksand, Roboto, sans-serif
   ha-card-header-font-weight: "600"
   code-font-family: Cascadia Code PL, Cascadia Mono PL, Cascadia Code, Cascadia Mono, monospace
