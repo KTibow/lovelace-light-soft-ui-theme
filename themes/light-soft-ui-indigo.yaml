@@ -11,7 +11,7 @@ Light Soft UI Indigo:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: "#f2f0f7"
+  primary-background-color: "#f4f2f7"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"
