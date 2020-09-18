@@ -32,7 +32,7 @@ for color_name, color_hue in [
     # background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.13, 0.22)
     background_color = convert_color(background_color)
     with open(
-        rf"themes\soft-ui-{color_name.lower().replace(' ', '-')}.yaml", "w"
+        rf"themes\light-soft-ui-{color_name.lower().replace(' ', '-')}.yaml", "w"
     ) as theme_file:
         theme_file.write(
             theme.replace("{color_name}", color_name)
