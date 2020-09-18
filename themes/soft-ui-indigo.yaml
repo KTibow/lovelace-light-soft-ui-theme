@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI Indigo:
   # Color
-  primary-color: 8e60eb
+  primary-color: "#8e60eb"
   light-primary-color: var(--primary-color)
-  accent-color: 606ceb
+  accent-color: "#606ceb"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI Indigo:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: f2f0f7
+  primary-background-color: "#f2f0f7"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"

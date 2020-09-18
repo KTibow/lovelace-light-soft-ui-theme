@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI Light Blue:
   # Color
-  primary-color: 60bceb
+  primary-color: "#60bceb"
   light-primary-color: var(--primary-color)
-  accent-color: 60ebdf
+  accent-color: "#60ebdf"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI Light Blue:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: f0f5f7
+  primary-background-color: "#f0f5f7"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"

@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI Purple:
   # Color
-  primary-color: b160eb
+  primary-color: "#b160eb"
   light-primary-color: var(--primary-color)
-  accent-color: 7760eb
+  accent-color: "#7760eb"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI Purple:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: f4f0f7
+  primary-background-color: "#f4f0f7"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"

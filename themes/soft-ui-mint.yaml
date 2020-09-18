@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI Mint:
   # Color
-  primary-color: 60ebb1
+  primary-color: "#60ebb1"
   light-primary-color: var(--primary-color)
-  accent-color: 60eb77
+  accent-color: "#60eb77"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI Mint:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: f0f7f4
+  primary-background-color: "#f0f7f4"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"

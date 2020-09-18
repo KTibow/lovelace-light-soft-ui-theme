@@ -1,9 +1,9 @@
 # Thanks @JuanMTech, @thomasloven, and @N-l1.
 Light Soft UI Yellow Green:
   # Color
-  primary-color: bfeb60
+  primary-color: "#bfeb60"
   light-primary-color: var(--primary-color)
-  accent-color: ebdd60
+  accent-color: "#ebdd60"
   mdc-theme-secondary: var(--accent-color)
   # More colors
   success-color: "#77EB60"
@@ -11,7 +11,7 @@ Light Soft UI Yellow Green:
   warning-color: "#EBEB60"
   error-color: "#D18941"
   # Background
-  primary-background-color: f5f7f0
+  primary-background-color: "#f5f7f0"
   secondary-background-color: var(--primary-background-color)
   # Text
   primary-text-color: "#4A4A4A"

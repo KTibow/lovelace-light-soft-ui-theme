@@ -4,7 +4,8 @@ import colorsys
 def convert_color(color):
     color = [round(comp * 255.0) for comp in color]
     color = "".join([format(comp, "x") for comp in color])
-    return color.zfill(6)
+    color = color.zfill(6)
+    return f'"#{color}"'
 
 
 theme = open("theme.yaml").read()
