@@ -20,7 +20,7 @@ for color_name, color_hue in [
     ["Mint", 155],
     ["Cyan", 180],
     ["Light Blue", 200],
-    ["Blue", 214],
+    ["", 214],
     ["Dark Blue", 240],
     ["Indigo", 260],
     ["Purple", 275],
