@@ -19,8 +19,8 @@ for color_name, color_hue in [
     ["Mint", 155],
     ["Cyan", 190],
     ["", 214],
-    ["Purple", 270],
-    ["Pink", 300],
+    ["Violet", 270],
+    ["Rose", 315],
 ]:
     primary_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.59, 0.92)
     primary_color = convert_color(primary_color)
