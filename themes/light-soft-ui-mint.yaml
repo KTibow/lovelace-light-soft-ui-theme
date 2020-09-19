@@ -137,8 +137,9 @@ Light Soft UI Mint:
         }
     ha-markdown:
       $: |
-        h1 {
+        h1, h2, h3, h4, h5, h6 {
           text-align: center;
+          font-family: Quicksand, Helvetica, Roboto, sans-serif;
         }
     .: |
       * {
