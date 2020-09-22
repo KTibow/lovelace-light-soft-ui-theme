@@ -420,10 +420,10 @@ Light Soft UI Cyan:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background-color: #F3F5F7B2 !important;
+        background-color: #f1f6f7b2 !important;
       }
       .mdc-dialog__scrim {
-        background-color: #F3F5F7B2 !important;
+        background-color: #f1f6f7b2 !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
         background: var(--primary-background-color);

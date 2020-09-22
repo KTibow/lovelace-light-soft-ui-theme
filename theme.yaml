@@ -420,10 +420,10 @@ Light Soft UI{color_name}:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background-color: #F3F5F7B2 !important;
+        background-color: {more_info_background_color} !important;
       }
       .mdc-dialog__scrim {
-        background-color: #F3F5F7B2 !important;
+        background-color: {more_info_background_color} !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
         background: var(--primary-background-color);
