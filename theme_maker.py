@@ -28,7 +28,7 @@ for color_name, color_hue in [
     accent_color = convert_color(accent_color)
     background_color = colorsys.hsv_to_rgb(color_hue / 360.0, 0.025, 0.97)
     background_color = convert_color(background_color)
-    more_info_background_color = background_color.replace('"', "") + "b2"
+    more_info_background_color = background_color.replace('"', "") + "cc"
     if color_name != "":
         color_name = " " + color_name
     file_color_name = color_name.lower().replace(" ", "-")

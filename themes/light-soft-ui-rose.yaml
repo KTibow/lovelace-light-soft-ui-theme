@@ -420,10 +420,10 @@ Light Soft UI Rose:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background-color: #f7f1f6b2 !important;
+        background-color: #f7f1f6cc !important;
       }
       .mdc-dialog__scrim {
-        background-color: #f7f1f6b2 !important;
+        background-color: #f7f1f6cc !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
         background: var(--primary-background-color);

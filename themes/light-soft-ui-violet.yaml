@@ -420,10 +420,10 @@ Light Soft UI Violet:
     $: |
       .mdc-dialog {
         backdrop-filter: blur(2px);
-        background-color: #f4f1f7b2 !important;
+        background-color: #f4f1f7cc !important;
       }
       .mdc-dialog__scrim {
-        background-color: #f4f1f7b2 !important;
+        background-color: #f4f1f7cc !important;
       }
       .mdc-dialog .mdc-dialog__container .mdc-dialog__surface {
         background: var(--primary-background-color);
