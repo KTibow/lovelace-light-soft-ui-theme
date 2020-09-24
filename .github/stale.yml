@@ -1,0 +1,11 @@
+daysUntilStale: 1
+daysUntilClose: 1
+exemptLabels:
+  - good first issue
+staleLabel: old
+markComment: >
+  This is getting 👴 old.
+  I'm going to ❌ this soon, because there's no point in keeping something open that's probably ✔.
+  Mind closing? Thank you! ♥
+  *Beep boop, I'm just a 🤖 bot that makes @KTibow's job easier by closing old issues.*
+closeComment: false
