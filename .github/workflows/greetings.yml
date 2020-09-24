@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hey! This is your first issue, so I just want to make sure you''ve read the docs and fourm thread. Thanks!'
+        pr-message: 'Hey, thanks for the PR! 😃 Since this is your first PR, I just wanted to make sure you''ve double checked everything. '
