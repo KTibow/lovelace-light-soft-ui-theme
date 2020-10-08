@@ -10,6 +10,7 @@ This theme is pretty powerful. It can:
 - Apply a compact header to Lovelace, without installing an addon.
 ## Screenshot
 [![Screenshot of it](lighttheme.png)](#)
+*Custom dashboard made with [soft ui](https://github.com/N-l1/lovelace-soft-ui)*
 ## Notes
 - You can use your own colors by just copy/pasting the card-mod part.
 - This will clamp your columns to 1 column wide. [More info.](https://github.com/KTibow/lovelace-light-soft-ui-theme/issues/6#issuecomment-669204209)
