@@ -274,6 +274,11 @@ Light Soft UI Rose:
         #contentContainer {
           padding-top: 48px !important; /*Change this to 0px if you want the header on the bottom*/
         }
+    ha-button-menu$mwc-menu$mwc-menu-surface$: |
+      .mdc-menu-surface {
+        margin: 10px;
+        box-shadow: var(--ha-card-box-shadow);
+      }
     .: |
       app-toolbar {
         height: 0;
