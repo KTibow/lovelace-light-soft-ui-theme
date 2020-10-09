@@ -289,7 +289,7 @@ Light Soft UI Red:
       }
       /*Uncomment this if you want the header on the bottom
       app-header {
-        top: calc(100vh - 60px) !important;
+        top: calc(100vh - 72px) !important;
       }
       */
       app-header.edit-mode {
