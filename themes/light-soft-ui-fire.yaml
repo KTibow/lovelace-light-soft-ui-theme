@@ -265,10 +265,14 @@ Light Soft UI Fire:
         .not-visible {
           display: none;
         }
+        /*Uncomment this if you want the header on the bottom
+        #selectionBar {
+          bottom: unset !important;
+        }*/
     "ha-app-layout":
       $: |
         #contentContainer {
-          padding-top: 48px !important;
+          padding-top: 48px !important; /*Change this to 0px if you want the header on the bottom*/
         }
     .: |
       app-toolbar {
@@ -278,6 +282,11 @@ Light Soft UI Fire:
         background-color: var(--primary-background-color) !important;
         color: var(--primary-text-color) !important;
       }
+      /*Uncomment this if you want the header on the bottom
+      app-header {
+        top: calc(100vh - 48px) !important;
+      }
+      */
       app-header.edit-mode {
         border-bottom: 2px var(--primary-color) solid;
         padding-bottom: 10px;
