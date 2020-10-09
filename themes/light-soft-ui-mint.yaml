@@ -330,6 +330,9 @@ Light Soft UI Mint:
         z-index: 2;
         margin-left: 5px;
         position: absolute;
+        /*Uncomment this out to hide the overflow menu
+        display: none;
+        */
       }
       app-toolbar > [main-title] {
         display: none;
