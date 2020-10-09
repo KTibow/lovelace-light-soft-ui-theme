@@ -364,13 +364,19 @@ Light Soft UI{color_name}:
       }
       @media (orientation: portrait) {
         paper-tabs {
-          margin-left: 64px !important;
-          margin-right: 32px !important;
+          margin-left: 0 !important;
+          margin-right: 48px !important;
         }
         ch-header > paper-tabs,
         app-header.edit-mode > * > paper-tabs {
           margin-left: 10px !important;
           margin-right: 10px !important;
+        }
+        mwc-icon-button[label="Start conversation"] {
+          display: none !important;
+        }
+        ha-menu-button {
+          display: none !important;
         }
       }
       ch-header > ha-button-menu {
