@@ -268,7 +268,7 @@ Light Soft UI Red:
     "ha-app-layout":
       $: |
         #contentContainer {
-          padding-top: 70px;
+          padding-top: 48px !important;
         }
     .: |
       app-toolbar {
