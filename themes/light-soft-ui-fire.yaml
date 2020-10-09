@@ -289,7 +289,7 @@ Light Soft UI Fire:
       }
       /*Uncomment this if you want the header on the bottom
       app-header {
-        top: calc(100vh - 48px) !important;
+        top: calc(100vh - 60px) !important;
       }
       */
       app-header.edit-mode {
@@ -352,6 +352,9 @@ Light Soft UI Fire:
       paper-tabs {
         --paper-tabs-selection-bar-color: var(--primary-color) !important;
         margin-left: 48px !important;
+      }
+      app-toolbar:not(.edit-mode) > div > paper-tabs {
+        margin-left: 6px !important;
       }
       paper-tab[aria-selected="true"] > ha-icon {
         color: var(--primary-color) !important;
