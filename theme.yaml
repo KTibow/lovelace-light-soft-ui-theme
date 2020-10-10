@@ -285,8 +285,7 @@ Light Soft UI{color_name}:
       /*Uncomment this if you want the header on the bottom
       app-header {
         top: calc(100vh - 60px) !important;
-        bottom: 60px;
-        position: absolute;
+        transform: unset !important;
       }
       */
       app-header.edit-mode {
