@@ -126,22 +126,19 @@ Light Soft UI Yellow:
   ha-label-badge-title-font-size: 1em
   # Cards
   card-mod-card-yaml: |
-    hui-image:
-      $: |
-        img {
-          border-radius: 15px;
-        }
-    ha-gauge:
-      $: |
-        .dial {
-          stroke: white !important;
-        }
-    ha-markdown:
-      $: |
-        h1, h2, h3, h4, h5, h6 {
-          text-align: center;
-          font-family: Quicksand, Helvetica, Roboto, sans-serif;
-        }
+    hui-image$: |
+      img {
+        border-radius: 15px;
+      }
+    ha-gauge$: |
+      .dial {
+        stroke: white !important;
+      }
+    ha-markdown$: |
+      h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+        font-family: Quicksand, Helvetica, Roboto, sans-serif;
+      }
     .: |
       * {
         --soft-ui-shadow: var(--ha-card-box-shadow) !important;
@@ -260,20 +257,18 @@ Light Soft UI Yellow:
       }
   # Header
   card-mod-root-yaml: |
-    paper-tabs:
-      $: |
-        .not-visible {
-          display: none;
-        }
-        /*Uncomment this if you want the header on the bottom
-        #selectionBar {
-          bottom: unset !important;
-        }*/
-    "ha-app-layout":
-      $: |
-        #contentContainer {
-          padding-top: 48px !important; /*Change this to 0px if you want the header on the bottom*/
-        }
+    paper-tabs$: |
+      .not-visible {
+        display: none;
+      }
+      /*Uncomment this if you want the header on the bottom
+      #selectionBar {
+        bottom: unset !important;
+      }*/
+    ha-app-layout$: |
+      #contentContainer {
+        padding-top: 48px !important; /*Change this to 0px if you want the header on the bottom*/
+      }
     ha-button-menu$mwc-menu$mwc-menu-surface$: |
       .mdc-menu-surface {
         margin: 10px;
@@ -289,7 +284,9 @@ Light Soft UI Yellow:
       }
       /*Uncomment this if you want the header on the bottom
       app-header {
-        top: calc(100vh - 72px) !important;
+        top: calc(100vh - 60px) !important;
+        bottom: 60px;
+        position: absolute;
       }
       */
       app-header.edit-mode {
@@ -382,6 +379,11 @@ Light Soft UI Yellow:
       ch-header > ha-button-menu {
         top: unset;
       }
+      ch-header > ha-menu-button,
+      app-toolbar.edit-mode > ha-menu-button {
+        top: unset;
+        margin-left: unset;
+      }
       ch-header > paper-tabs,
       app-header.edit-mode > paper-tabs {
         margin-left: 0;
@@ -391,23 +393,11 @@ Light Soft UI Yellow:
       }
   # Badges and columns
   card-mod-view-yaml: |
-    hui-vertical-stack-card:
-      $: |
-        .card-header {
-          text-align: center;
-        }
-    .: |
-      #badges {
-        width: 90%;
-        margin: 8px auto !important;
-      }
+    hui-masonry-view$: |
       #columns {
         flex-direction: column !important;
         margin: 0 auto;
         max-width: 500px;
-      }
-      #columns > .column {
-        margin: 0 15px;
       }
   card-mod-badge-yaml: |
     .: |
@@ -427,18 +417,15 @@ Light Soft UI Yellow:
         --label-badge-red: teal;
         box-shadow: var(--ha-card-box-shadow);
       }
-    ha-state-label-badge:
-      $:
-        ha-label-badge:
-          $: |
-            .label-badge {
-              background: none;
-            }
-            .title {
-              -webkit-line-clamp: 1;
-              display: -webkit-box;
-              -webkit-box-orient: vertical;
-            }
+    ha-state-label-badge$ha-label-badge$: |
+      .label-badge {
+        background: none;
+      }
+      .title {
+        -webkit-line-clamp: 1;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+      }
   # Style more info
   card-mod-more-info-yaml: |
     $: |
