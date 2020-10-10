@@ -361,11 +361,10 @@ Light Soft UI Yellow:
       }
       @media (orientation: portrait) {
         paper-tabs {
-          margin-left: 0 !important;
+          margin-left: 5px !important;
           margin-right: 48px !important;
         }
-        ch-header > paper-tabs,
-        app-header.edit-mode > * > paper-tabs {
+        ch-header > paper-tabs {
           margin-left: 10px !important;
           margin-right: 10px !important;
         }
