@@ -264,7 +264,8 @@ Light Soft UI{color_name}:
       /*Uncomment this if you want the header on the bottom
       #selectionBar {
         bottom: unset !important;
-      }*/
+      }
+      */
     ha-app-layout$: |
       #contentContainer {
         padding-top: 48px !important; /*Change this to 0px if you want the header on the bottom*/
@@ -397,6 +398,11 @@ Light Soft UI{color_name}:
         margin: 0 auto;
         max-width: 500px;
       }
+      /*Uncomment this if you want the header on the bottom
+      mwc-fab[title="Add Card"] {
+        bottom: 96px !important;
+      }
+      */
   card-mod-badge-yaml: |
     .: |
       :host {
