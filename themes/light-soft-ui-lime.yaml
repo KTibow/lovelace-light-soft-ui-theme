@@ -290,7 +290,11 @@ Light Soft UI Lime:
       /* Uncomment this if you want the header on the bottom
       app-header {
         top: calc(100vh - 60px) !important;
+        bottom: 0 !important;
         transform: unset !important;
+      }
+      hui-masonry-view {
+        padding-bottom: 60px !important;
       }
       */
       /* This gives the header in edit mode a different look from the standard header. */
