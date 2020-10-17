@@ -126,19 +126,6 @@ Light Soft UI Cyan:
   ha-label-badge-title-font-size: 1em
   # Cards
   card-mod-card-yaml: |
-    hui-image$: |
-      img {
-        border-radius: 15px;
-      }
-    ha-gauge$: |
-      .dial {
-        stroke: white !important;
-      }
-    ha-markdown$: |
-      h1, h2, h3, h4, h5, h6 {
-        text-align: center;
-        font-family: Quicksand, Helvetica, Roboto, sans-serif;
-      }
     .: |
       * {
         --soft-ui-shadow: var(--ha-card-box-shadow) !important;
