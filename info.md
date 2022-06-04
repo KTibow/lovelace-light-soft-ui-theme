@@ -1,4 +1,6 @@
 # Lovelace Soft UI light theme 
+## This is an old theme. Some stuff might be broken.
+Use the new `lovelace-soft-theme` instead.
 {% if installed %}
 **Thanks for installing!**
 {% else %}
